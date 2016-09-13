@@ -24,7 +24,7 @@ No **codeblocks** vá em configurações, compiladores e marque a opção para h
 Para python minhas duas preferidas são o **Spyder** e o **Pycharm**.
 
 ### Baixando para estudar offline
-[Offline](offilne/Readme.md)
+[Offline](offline/Readme.md)
 
 ### Última sugestão
 
