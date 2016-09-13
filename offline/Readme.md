@@ -5,22 +5,10 @@ Clone ou Download.
 
 ![Donwload](download.png)
 
-Descompacte e você terá todos os arquivos e respostas do projeto. Outra forma é
-ir no terminal do linux e digitar:
+Descompacte e você terá todos os arquivos e respostas do projeto. Se tiver o git
+instalado também pode clonar o respositório:
 
     git clone https://github.com/qxcodefup/exercicios
-
-Se você não tem o git, poderá instalá-lo pelo Central de Programas da sua
-distribuição. No ubuntu e derivados é simples como:
-    
-    sudo apt-get install git
-
-A vantagem do terminal é que sempre que você quiser atualizar com os novos
-exercícios basta entrar na pasta e digitar:
-
-    git pull
-    ou
-    git pull -f
 
 ## Configurando o Google Chrome 
 
