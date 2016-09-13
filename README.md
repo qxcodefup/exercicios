@@ -23,6 +23,9 @@ No **codeblocks** vá em configurações, compiladores e marque a opção para h
 
 Para python minhas duas preferidas são o **Spyder** e o **Pycharm**.
 
+### Baixando para estudar offline
+[Offline](offilne/Readme.md)
+
 ### Última sugestão
 
 Tente fazer a atividade e se você tiver problemas, dê uma olhadinha no exemplo. Programar se aprende programando, os exercícios resolvidos só vão lhe ajudar se você se ajudar.
