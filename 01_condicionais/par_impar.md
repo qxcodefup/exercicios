@@ -8,9 +8,9 @@ using namespace std;
 void par_ou_impar(int numero){
   //Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
   if (numero % 2 == 0)
-      cout << "Par";
+      cout << "Par" << endl;
   else
-      cout << "Impar";
+      cout << "Impar" << endl;
 }
 
 int main() {
@@ -32,9 +32,9 @@ int main() {
 void par_ou_impar(int numero){
   //Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
   if (numero % 2 == 0)
-      printf("Par");
+      printf("Par\n");
   else
-      printf("Impar");
+      printf("Impar\n");
 }
 
 int main() {
