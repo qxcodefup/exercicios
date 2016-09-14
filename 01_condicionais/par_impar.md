@@ -53,6 +53,7 @@ int main() {
 numero = int(input())
 
 def par_ou_impar(numero):
+  #Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
   if numero % 2 == 0:
     print "Par"
   else
