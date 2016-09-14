@@ -1,5 +1,8 @@
 ## FÁCEIS
 
+00. Leia um vetor de inteiros e imprima o menor valor.  
+[Respostas](03_vetores/menor_vetor.md)
+
 01. Crie uma função que receba a quantidade n de termos e imprima os n termos da sequência de fibonacci.
 
 02. A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como entrada um vetor de números L e um número x, determinar utilizando busca linear se x está ou não presente em L.

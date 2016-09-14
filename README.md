@@ -4,7 +4,18 @@ Esse repositório tem por objetivo propor vários exercícios simples de program
 
 ### Exercícios
 
-[Vetores](03_vetores/Readme.md)
+
+[Condicionais](01_condicionais.md)
+
+[Laço](02_laco.md)
+
+[Vetores](03_vetores.md)
+
+[String](04_strings.md)
+
+[Recursão](08_recursividade.md)
+
+[Funções](09_funcoes.md)
 
 ### IDEs
 [Configure sua IDE.](ides/Readme.md)
