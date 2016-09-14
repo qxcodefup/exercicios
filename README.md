@@ -4,6 +4,7 @@ Esse repositório tem por objetivo propor vários exercícios simples de program
 
 ### Exercícios
 
+[Joguinhos](00_joguinhos.md)
 
 [Condicionais](01_condicionais.md)
 
