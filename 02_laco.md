@@ -44,3 +44,5 @@ Determinar para um número de entrada dado as séries obtidas por rotações à 
 
 **pega_casa:** Dado um número e uma casa, retorne a casa decimal desse número.
 Ex: 1452, pegar a casa da unidade(casa 0), retorna 2. Pegar a casa da centena(casa 2), retorna 4. Pegar a casa do milhão(casa 5), retorna 0.
+
+**adivinha:** Sorteie um número aleatório entre 0 e 100, e fique perguntando pro usuário pra ele chutar um valor e fique dizendo se é pra mais ou pra menos. Conte quantos chutes ele dá até acertar o número sorteado.
