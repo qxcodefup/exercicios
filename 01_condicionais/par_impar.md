@@ -15,6 +15,7 @@ void par_ou_impar(int numero){
 
 int main() {
   int numero;
+  cout << "Digite um numero inteiro: ";
   cin >> numero;
 
   par_ou_impar(numero);
@@ -39,6 +40,7 @@ void par_ou_impar(int numero){
 
 int main() {
   int numero;
+  printf("Digite um numero inteiro: ");
   scanf("%d", &numero);
 
   par_ou_impar(numero);
@@ -50,14 +52,14 @@ int main() {
 ### Python
 
 ```python
-numero = int(input())
-
 def par_ou_impar(numero):
   #Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
   if numero % 2 == 0:
     print "Par"
   else
     print "Impar"
+
+numero = int(input("Digite um numero inteiro: "))
 
 par_ou_impar(numero)
 
