@@ -27,8 +27,6 @@
 
 **briga de primos:** Dado um inteiro N como entrada, determinar no conjunto {1 · · · N} a soma de todos os não-primos subtraída da soma dos primos.
 
-
-
 **dinheiro:** No Brasil existem notas de 2, 5, 10, 20, 50 e 100 reais. Faça um programa que, dado um valor inteiro em reais, mostre a menor combinação de notas existente para esse valor.
 
 **primo_maior:** Faça um programa que receba um número inteiro do usuário e exiba o maior número primo que seja menor do que o número digitado.
@@ -37,11 +35,12 @@
 
 **mdc:** O máximo divisor comum, ou mdc, de dois números naturais a e b é o maior número inteiro não nulo menor que a e b e pelo qual ambos podem ser divididos (resto igual a zero). Calcule o mdc.
 
-
-
 **rotacao:** A rotação de um número inteiro consiste na transferência de um dígito de uma extremidade deste número para a outra. A rotação à direita, ou RD, retira o dígito mais a esquerda e o coloca mais a direita. Por exemplo, RD(1234) = 2341. A rotação à esquerda, ou RE, retira o dígito mais a direita e o coloca mais à esquerda. Por exemplo, RE(1234) = 4123. Uma sequência de rotações de um número n é a série [n, n¹, n¹¹, · · · , n] onde cada elemento a partir do segundo é uma rotação do anterior e o último elemento é igual ao primeiro. Por exemplo, [137, 371, 713, 137].
 Determinar para um número de entrada dado as séries obtidas por rotações à direita e por rotações à esquerda.
 
 **conversor:** Faça um conversor da base decimal para qualquer base entre 2 e 8. Mostre o resultado.
 
 **conta_digito:** Faça um programa que, dados um número inteiro n (n > 0) e um dígito d (0 ≤ d ≤ 9), determine quantas vezes d ocorre em n. (Sem utilizar cadeia de caracteres).
+
+**pega_casa:** Dado um número e uma casa, retorne a casa decimal desse número.
+Ex: 1452, pegar a casa da unidade(casa 0), retorna 2. Pegar a casa da centena(casa 2), retorna 4. Pegar a casa do milhão(casa 5), retorna 0.
