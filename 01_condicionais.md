@@ -1,7 +1,8 @@
 # EXERCÍCIOS DE ESTRUTURA DE DECISÃO
 
-- **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.
+- **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
+
 - **mm_cinco:** Escreva um programa que leia cinco números inteiros e informa qual o maior e qual o menor número dentre eles.
 
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.
