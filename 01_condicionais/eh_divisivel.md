@@ -1,10 +1,10 @@
-
+ ### C
 ```c
 ```
-
+### C++
 ```c++
 ```
-
+### Python
 ```python
 
 def is_divisible(num_a, num_b):

@@ -1,4 +1,4 @@
-
+### C
 ```c
 #include <stdio.h>
 
@@ -30,7 +30,7 @@ int maximo (int num_a,  int num_b, int num_c){
 }
 
 ```
-
+### C++
 ```c++
 #include <iostream>
 
@@ -64,7 +64,7 @@ int maximo (int num_a,  int num_b, int num_c){
 }
 
 ```
-
+### Python
 ```python
 #-*- coding=utf-8 -*-
 

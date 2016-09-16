@@ -1,3 +1,4 @@
+### C
 ```c
 #include <stdio.h>
 
@@ -21,7 +22,7 @@ int main() {
 }
 
 ```
-
+### C++
 ```c++
 #include <stdio.h>
 
@@ -44,7 +45,7 @@ int main() {
   return 0;
 }
 ```
-
+### Python
 ```python
 def resto (num_1, num_2):
 	if num_1 > num_2:

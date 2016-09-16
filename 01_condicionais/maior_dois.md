@@ -1,4 +1,4 @@
-
+### C
 ```c
 #include <stdio.h>
 
@@ -26,7 +26,7 @@ float maximo (float num_a,  float num_b){
 }
 
 ```
-
+### C++
 ```c++
 #include <iostream>
 
@@ -57,7 +57,7 @@ float maximo (float num_a,  float num_b){
 }
 
 ```
-
+### Python
 ```python
 
 def maior (num_a, num_b):
