@@ -6,13 +6,17 @@
 - **mm_cinco:** Escreva um programa que leia cinco números inteiros e informa qual o maior e qual o menor número dentre eles.  
 [Respostas](01_condicionais/mm_cinco.md)
 
-- **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.
+- **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
+[Respostas](01_condicionais/maior_dois.md)  
 
-- **maior_tres:** Determinar o maior de três números inteiros dados como entrada.
+- **maior_tres:** Determinar o maior de três números inteiros dados como entrada.  
+[Respostas](01_condicionais/maior_tres.md)  
 
-- **resto_mm:** Dados dois números naturais como entrada, determinar o resto da divisão do maior pelo menor quando possível.
+- **resto_mm:** Dados dois números naturais como entrada, determinar o resto da divisão do maior pelo menor quando possível.  
+[Respostas](01_condicionais/resto_mm.md)  
 
-- **eh_divisivel:** Faça um algoritmo que determine se um número é divisível ou não por outro.
+- **eh_divisivel:** Faça um algoritmo que determine se um número é divisível ou não por outro.  
+[Respostas](01_condicionais/eh_divisivel.md)
 
 - **ordena_tres:** Faça um programa que ordene três números informados pelo usuário.
 
