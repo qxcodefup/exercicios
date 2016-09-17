@@ -3,14 +3,14 @@
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
 
-- **mm_cinco:** Escreva um programa que leia cinco números inteiros e informa qual o maior e qual o menor número dentre eles.  
-[Respostas](01_condicionais/mm_cinco.md)
-
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
 [Respostas](01_condicionais/maior_dois.md)  
 
 - **maior_tres:** Determinar o maior de três números inteiros dados como entrada.  
 [Respostas](01_condicionais/maior_tres.md)  
+
+- **mm_cinco:** Escreva um programa que leia cinco números inteiros e informa qual o maior e qual o menor número dentre eles.  
+[Respostas](01_condicionais/mm_cinco.md)
 
 - **resto_mm:** Dados dois números naturais como entrada, determinar o resto da divisão do maior pelo menor quando possível.  
 [Respostas](01_condicionais/resto_mm.md)  
@@ -74,7 +74,7 @@ onde a, b, c são os lados (em qualquer ordem) do triângulo analisado. Determin
 
 Tipo | Definição | Exemplo
 -----|-----------|--------
-Eqüilátero | Três lados iguais | 4, 4, 4
+Equilátero | Três lados iguais | 4, 4, 4
 Isósceles | Um lado diferente dos demais | 5, 4, 4
 Escaleno | Três lados diferentes | 4, 5, 6
 Não é triângulo | A soma de dois lados é menor que o terceiro | 1, 1, 10
