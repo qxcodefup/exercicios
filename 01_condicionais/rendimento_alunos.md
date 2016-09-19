@@ -1,3 +1,6 @@
+_Exercicio extra: Crie uma funcao para calcular a media e uma para ler as 3 notas de cada aluno._
+
+### Python
 ```python
 def calcular_media(nota_1, nota_2, nota_3):
   return (nota_1 + nota_2 + nota_3) / 3

@@ -1,20 +1,19 @@
+_Exercicio extra: Crie uma funcao que recebe uma idade e a partir desse dado calcula a categoria._
+
+### Python
 ```python
-def calcular_media(nota_1, nota_2, nota_3):
-  return (nota_1 + nota_2 + nota_3) / 3
-
-def rec_notas_e_calc_media():
-  nota_1 = int (input ("Digite a nota 1: "))
-  nota_2 = int (input ("Digite a nota 2: "))
-  nota_3 = int (input ("Digite a nota 3: "))
-
-  return calcular_media(nota_1, nota_2, nota_3)
-
-aluno_1 = rec_notas_e_calc_media()
-aluno_2 = rec_notas_e_calc_media()
-
-if aluno_1 > aluno_2:
-  print "Aluno 1 teve um melhor rendimento!"
+#abs para garatir que sejam inseridos dados positivos
+idade = abs (int (input ("Digite uma idade: ")))
+# como nao tenho numeros negativos entao nao a necessidade de testar se o dado e maior o igual a 0
+if idade < 10:
+  print "Criança"
+elif idade < 20: # Nao testa se é maior que 10 porque ja entraria na primeira condicao
+  print "Adolescente"
+elif idade < 30:
+  print "Jovem"
+elif idade < 40:
+  print "Adulto"
 else:
-  print "Aluno 2 teve um melhor rendimento!"
-
+  print "Maduro"
+  
 ```

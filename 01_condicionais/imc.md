@@ -1,19 +1,17 @@
-```python
-def calc_imc(peso, altura):
-  return peso / (altura ** 2)
+_Exercicio extra: Crie duas funcoes uma para calcular o IMC e outra para classifica-lo_
 
-def classificar(imc):
-  if imc < 20:
-    print "Magros"
-  elif imc > 25:
-    print "Obesos"
-  else:
-    print "Normal"
+```python
 
 peso = float (input ("Digite o peso: "))
 altura = float (input ("Digite a altura: "))
 
-imc = calc_imc(peso, altura)
+imc = peso / (altura ** 2)
 
-classificar(imc)
+if imc < 20:
+  print "Magros"
+elif imc > 25:
+  print "Obesos"
+else:
+  print "Normal"
+
 ```

@@ -1,3 +1,8 @@
+_Exercicio extra: Crie uma funcao que calcula a distancia entre dois pontos e outra para o calculo da colisao. Para saber a distancia entre dois pontos use a funcao sqrt da respectiva linguagem e para a formula use a imagem:_
+
+[Distancia entre dois pontos](formula_distancia.jpg)
+
+### Python
 ```python
 from math import sqrt
 
