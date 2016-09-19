@@ -22,16 +22,16 @@
 [Respostas](01_condicionais/ordena_tres.md)  
 
 - **escrever_ordem:** Receber 3 números inteiros como entrada e reescrevê-los em ordem crescente.  
-[Respostas](01_condicionais/escrever_ordem.md)  
+[Respostas](01_condicionais/escrever_ordem.md)  ???
 
 - **ordem_intruso:** Faça um programa que receba três números obrigatoriamente em ordem crescente e
 um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em
 ordem decrescente. Suponha que o usuário digitará quatro números diferentes.  
-[Respostas](01_condicionais/ordem_intruso.md)
+[Respostas](01_condicionais/ordem_intruso.md)  
 
 - **rendimento_alunos:** Dois alunos fizeram três provas. Dadas estas notas como entrada, determinar qual dos
 dois alunos apresentou melhor rendimento.  
-[Respostas](01_condicionais/rendimento_alunos.md)
+[Respostas](01_condicionais/rendimento_alunos.md)  OK
 
 - **aposentados** Crie um sistema que receba a dezena da idade de uma pessoa e classifique quanto à
  tabela abaixo:
