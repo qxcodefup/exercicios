@@ -1,4 +1,4 @@
-_Exercicio extra: Crie uma funcao que calcula a distancia entre dois pontos e outra para o calculo da colisao. Para saber a distancia entre dois pontos use a funcao sqrt da respectiva linguagem e para a formula use a imagem:_
+_Exercicio extra: Crie uma funcao que calcula a distancia entre dois pontos e outra para o calculo da colisao. A formula da distancia entre dois pontos esta na imagem abaixo e para saber a raiz, use ``` sqrt ```, e para exponenciação use ``` pow ``` para C e C++ e ``` ** ``` para Python_
 
 ![Distancia entre dois pontos](formula_distancia.jpg)
 
