@@ -3,7 +3,7 @@ _Exercicion extra: Tente fazer uma funcao para realizar a ordenacao de forma dec
 ### C
 ```c
 #include <stdio.h>
-
+ 
 int main() {
   int num_1, num_2, num_3, num_4;
   printf("Digite um numero inteiro: ");

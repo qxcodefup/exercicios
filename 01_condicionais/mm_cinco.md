@@ -6,7 +6,7 @@ _Exercicio extra: Tente fazer duas funcoes, uma para calcular o maior valor e ou
 
 int main() {
   int numero;
-
+ 
   printf("Digite um numero inteiro: ");
   scanf("%d", &numero); //1
   int maior = numero; //O primeiro numero ja sera o maior

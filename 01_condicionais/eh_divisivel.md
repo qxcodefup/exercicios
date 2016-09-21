@@ -1,6 +1,6 @@
 _Exercicio extra: Crie uma funcao que retorna um valor booleano informando se é divisivel. No caso do C que nao possui valores booleanos defina uma constante para o valor de verdade e uma para o de falso._  
 
-### C
+### C 
 ```c
 #include <stdio.h>
 
@@ -49,5 +49,5 @@ if num_a % num_b == 0:
   print "SIM"
 else:
   print "NAO"
-  
+
 ```

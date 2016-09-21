@@ -30,7 +30,7 @@ int main (){
 #include <iostream>
 
 using namespace std;
-
+ 
 int main (){
 	int num_a, num_b, num_c;
 

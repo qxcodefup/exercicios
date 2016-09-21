@@ -1,7 +1,6 @@
 _Exercicio extra: Tente criar uma função que verifica se um numero é par ou impar_
 
 ### C
-
 ```c
 #include <stdio.h>
 
@@ -42,7 +41,6 @@ int main() {
 ```
 
 ### Python
-
 ```python
 numero = int(input("Digite um numero inteiro: "))
 

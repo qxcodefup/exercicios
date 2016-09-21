@@ -1,5 +1,6 @@
 _Exercicio extra: Tente fazer uma funcao para ordenar os tres valores_
 
+### C
 ```c
 #include <stdio.h>
 
@@ -33,7 +34,7 @@ int main() {
 }
 
 ```
-
+### C++
 ```c++
 #include <iostream>
 
@@ -69,7 +70,7 @@ int main() {
 }
 
 ```
-
+### Python
 ```python
 
 num_1 = int(input("Digite um numero inteiro: "))
