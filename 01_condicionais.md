@@ -21,9 +21,6 @@
 - **ordena_tres:** Faça um programa que ordene três números informados pelo usuário.  
 [Respostas](01_condicionais/ordena_tres.md)  
 
-- **escrever_ordem:** Receber 3 números inteiros como entrada e reescrevê-los em ordem crescente.  
-[Respostas](01_condicionais/escrever_ordem.md)  ???
-
 - **ordem_intruso:** Faça um programa que receba três números obrigatoriamente em ordem crescente e
 um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em
 ordem decrescente. Suponha que o usuário digitará quatro números diferentes.  
