@@ -1,20 +1,28 @@
 #Exercícios de Repetição
 
-- **palpite:** Faça um programa que apresente um palpite para um jogo da loteria. Nossa loteria consiste de seis números inteiros aleatórios entre 0 e 100.
+- **palpite:** Faça um programa que apresente um palpite para um jogo da loteria. Nossa loteria consiste de seis números inteiros aleatórios entre 0 e 100.  
+[Respostas](02_lacos/palpite.md)  
 
-- **fatorial:** Escreva um programa que leia um número N, inteiro maior que zero, e calcule o fatorial desse número.
+- **fatorial:** Escreva um programa que leia um número N, inteiro maior que zero, e calcule o fatorial desse número.  
+[Respostas](02_lacos/fatorial.md)
 
-- **potencia:** Sejam a e b dois números naturais. Determinar o valor da potência a b dados a e b como entrada.
+- **potencia:** Sejam a e b dois números naturais. Determinar o valor da potência a b dados a e b como entrada.  
+[Respostas](02_lacos/potencia.md)
 
-- **juizes:** Numa competição de natação, oito juízes dão notas entre 0 e 10. Das notas recebidas, a menor e a maior são descartadas, e a nota do atleta é dada pela média entre as seis notas restantes. Faça um programa que receba as oito notas dos juízes e apresente a nota do atleta.
+- **juizes:** Numa competição de natação, oito juízes dão notas entre 0 e 10. Das notas recebidas, a menor e a maior são descartadas, e a nota do atleta é dada pela média entre as seis notas restantes. Faça um programa que receba as oito notas dos juízes e apresente a nota do atleta.  
+[Respostas](02_lacos/juizes.md)
 
-**500_impares:** Imprimir números naturais ímpares menores que 500.
+**500_impares:** Imprimir números naturais ímpares menores que 500.  
+[Respostas](02_lacos/500_impares.md)
 
-**500_pares:** Imprimir números naturais pares menores que 500 em ordem decrescente.
+**500_pares:** Imprimir números naturais pares menores que 500 em ordem decrescente. Nesse caso não iremos considerar o zero.
+[Respostas](02_lacos/500_pares.md)
 
-**200_primeiros:** Determinar a soma dos primeiros 200 números naturais que sejam divisíveis por 3 mas que não sejam divisíveis por 7.
+**200_primeiros:** Determinar a soma dos primeiros 200 números naturais que sejam divisíveis por 3 mas que não sejam divisíveis por 7.  
+[Respostas](02_lacos/200_primeiros.md)
 
-**eh_primo:** Desenvolva um programa que responda se um número é primo ou não. Um número é primo se for divisível apenas por ele e por um (1).
+**eh_primo:** Desenvolva um programa que responda se um número é primo ou não. Um número é primo se for divisível apenas por ele e por um (1).  
+[Respostas](02_lacos/eh_primo.md)
 
 **ate_negativo:** Escreva um programa que receba números inteiros do usuário até ele digitar um número negativo. Quando isso acontecer, o programa deve apresentar a quantidade, a soma e a média dos números positivos.
 
