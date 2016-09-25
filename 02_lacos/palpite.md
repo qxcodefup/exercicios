@@ -18,5 +18,5 @@ cont = 0
 while cont < 6:
   numero = randint(0, 100) # gera um numero aleatorio  
   print numero
-
+  cont += 1
 ```
