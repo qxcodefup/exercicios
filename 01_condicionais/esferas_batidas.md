@@ -7,13 +7,13 @@ _Exercicio extra: Crie uma funcao que calcula a distancia entre dois pontos e ou
 #include <stdio.h>
 #include <math.h>
 
-int main() {}
+int main() {
   int pos_1_x, pos_1_y, raio_1, pos_2_x, pos_2_y, raio_2;
 
   distancia =  sqrt (pow((pos_2_x - pos_1_x), 2) + pow((pos_2_y - pos_1_y) , 2))
 
   if (distancia < (raio_1 + raio_2))
-      printf  ("True");
+    printf  ("True");
   else
     printf ("False");
 
@@ -28,13 +28,13 @@ int main() {}
 
 using namespace std;
 
-int main() {}
+int main() {
   int pos_1_x, pos_1_y, raio_1, pos_2_x, pos_2_y, raio_2;
 
   distancia =  sqrt (pow((pos_2_x - pos_1_x), 2) + pow((pos_2_y - pos_1_y) , 2))
 
   if (distancia < (raio_1 + raio_2))
-      cout << "True" << endl;
+    cout << "True" << endl;
   else
     cout << "False" << endl;
 
@@ -54,7 +54,7 @@ pos_2_x = int (input ())
 pos_2_y = int (input ())
 raio_2 = int (input ())
 
-distancia =  sqrt (((pos_2_x - pos_1_x) ** 2) + ((pos_2_y - pos_1_y) ** 2))
+distancia = sqrt (((pos_2_x - pos_1_x) ** 2) + ((pos_2_y - pos_1_y) ** 2))
 
 if distancia < (raio_1 + raio_2):
     print True
