@@ -12,10 +12,11 @@ _Exercicio extra: Tente fazer sem  usar vetor ou lista. Mostrando os valores na 
 
 ### Python
 ```python
+from random import randint
 
 cont = 0
 while cont < 6:
-  numero = rand_int(0, 100) # gera um numero aleatorio
+  numero = randint(0, 100) # gera um numero aleatorio  
   print numero
 
 ```
