@@ -54,3 +54,20 @@ int main(){
     return 0;
 }
 ```
+
+```python
+valores = []
+
+while(True): #laço infinito
+  value = int (input ("Digite valores inteiros e -1 para sair: "))
+  if value == -1: #condicao de parada do laço
+    break
+  valores.append(value)
+
+menor = valores[0]
+for valor in valores:
+  if valor < menor:
+    menor = valor
+
+print "O menor eh %d" % menor
+```

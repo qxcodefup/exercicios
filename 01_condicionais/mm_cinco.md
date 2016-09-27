@@ -1,22 +1,12 @@
+_Exercicio extra: Tente fazer duas funcoes, uma para calcular o maior valor e outra para o menor valor_
+
 ### C
 ```c
 #include <stdio.h>
 
-int qual_o_maior(int numero, int old_maior){
-  if (numero > old_maior) //Se o numero for maior retorna ele
-    return numero;
-  return old_maior;
-}
-
-int qual_o_menor(int numero, int old_menor){
-  if (numero < old_menor) //Se o numero for menor retorna ele
-    return numero;
-  return old_menor;
-}
-
 int main() {
   int numero;
-
+ 
   printf("Digite um numero inteiro: ");
   scanf("%d", &numero); //1
   int maior = numero; //O primeiro numero ja sera o maior
@@ -24,23 +14,39 @@ int main() {
 
   printf("Digite um numero inteiro: ");
   scanf("%d", &numero); //2
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+      menor = numero;
 
   printf("Digite um numero inteiro: ");
   scanf("%d", &numero); //3
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   printf("Digite um numero inteiro: ");
   scanf("%d", &numero); //4
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   printf("Digite um numero inteiro: ");
   scanf("%d", &numero); //5
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   printf("O maior é %d e o menor é %d\n", maior, menor);
 
@@ -55,18 +61,6 @@ int main() {
 
 using namespace std;
 
-int qual_o_maior(int numero, int old_maior){
-  if (numero > old_maior) //Se o numero for maior retorna ele
-    return numero;
-  return old_maior;
-}
-
-int qual_o_menor(int numero, int old_menor){
-  if (numero < old_menor) //Se o numero for menor retorna ele
-    return numero;
-  return old_menor;
-}
-
 int main() {
   int numero;
 
@@ -77,23 +71,39 @@ int main() {
 
   cout << "Digite um numero inteiro: ";
   cin >> numero; //2
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   cout << "Digite um numero inteiro: ";
   cin >> numero; //3
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   cout << "Digite um numero inteiro: ";
   cin >> numero; //4
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   cout << "Digite um numero inteiro: ";
   cin >> numero; //5
-  maior = qual_o_maior(numero, maior);
-  menor = qual_o_menor(numero, menor);
+
+  if (numero > maior) //Se o numero for maior retorna ele
+    maior = numero;
+
+  if (numero < menor) //Se o numero for menor retorna ele
+    menor = numero;
 
   cout << "O maior é " << maior << " e o menor é " << menor << endl;
 
@@ -104,35 +114,42 @@ int main() {
 
 ```python
 #-*- coding=utf-8 -*-
-def qual_o_maior(numero, old_maior):
-  if numero > old_maior: #Se o numero for maior retorna ele
-    return numero
-  return old_maior
-
-def qual_o_menor(numero, old_menor):
-  if numero < old_menor: #Se o numero for menor retorna ele
-    return numero
-  return old_menor
 
 numero = int(input("Digite um numero inteiro: ")) #1
 
 maior = numero #O primeiro numero ja sera o maior
 menor = numero #Assim como o primeiro, o numero tambem sera o menor
 numero = int(input("Digite um numero inteiro: ")) #2
-maior = qual_o_maior(numero, maior)
-menor = qual_o_menor(numero, menor)
+
+if numero > old_maior: #Se o numero for maior retorna ele
+  maior = numero
+
+if numero < menor: #Se o numero for menor retorna ele
+  menor = numero
 
 numero = int(input("Digite um numero inteiro: ")) #3
-maior = qual_o_maior(numero, maior)
-menor = qual_o_menor(numero, menor)
+
+if numero > old_maior: #Se o numero for maior retorna ele
+  maior = numero
+
+if numero < menor: #Se o numero for menor retorna ele
+  menor = numero
 
 numero = int(input("Digite um numero inteiro: ")) #4
-maior = qual_o_maior(numero, maior)
-menor = qual_o_menor(numero, menor)
+
+if numero > old_maior: #Se o numero for maior retorna ele
+  maior = numero
+
+if numero < menor: #Se o numero for menor retorna ele
+  menor = numero
 
 numero = int(input("Digite um numero inteiro: ")) #5
-maior = qual_o_maior(numero, maior)
-menor = qual_o_menor(numero, menor)
+
+if numero > old_maior: #Se o numero for maior retorna ele
+  maior = numero
+
+if numero < menor: #Se o numero for menor retorna ele
+  menor = numero
 
 print "O maior é %d e o menor é %d" % (maior, menor)
 
