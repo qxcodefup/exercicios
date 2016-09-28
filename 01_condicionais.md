@@ -4,6 +4,7 @@
 [Respostas](01_condicionais/par_impar.md)
 
 <details><summary>**C**</summary>
+
 ```c
 #include <stdio.h>
 
@@ -21,6 +22,20 @@ int main() {
   return 0;
 }
 ```
+
+</details>
+
+<details><summary>[**Python**]()</summary>()
+
+```python
+numero = int(input("Digite um numero inteiro: "))
+#Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
+if numero % 2 == 0:
+  print "Par"
+else
+  print "Impar"
+```
+
 </details>
 
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
