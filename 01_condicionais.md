@@ -3,6 +3,26 @@
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
 
+<details><summary>**C**</summary>
+```c
+#include <stdio.h>
+
+int main() {
+  int numero;
+  printf("Digite um numero inteiro: ");
+  scanf("%d", &numero);
+
+  //Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
+  if (numero % 2 == 0)
+      printf("Par\n");
+  else
+      printf("Impar\n");
+
+  return 0;
+}
+```
+</details>
+
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
 [Respostas](01_condicionais/maior_dois.md)  
 

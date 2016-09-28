@@ -1,4 +1,5 @@
 
+
 ### Python
 ```python
 #-*- coding=utf-8 -*- 
@@ -7,7 +8,7 @@ from math import sqrt
 def eh_primo(numero):
   if numero == 1: # 1 nao é primo
     return False
-  for value in range(2, int(numero / 2) + 1, 1): # nao existe numero primo par e para economizer vamos percorrer ate a metade
+  for value in range(2, int(sqrt(numero)) + 1, 1): # nao existe numero primo par e para economizer vamos percorrer ate a metade
     if numero % value == 0:
       return False
   return True
