@@ -1,10 +1,12 @@
 Aqui você encontrará as respostas.
 
-### Mas não olhe sem tentar fazer, ok.
+#### Mas não olhe sem tentar fazer, ok.
 
-## Perde a graça, certeze.
+### Perde a graça, certeza.
 
-# Sério, perde a graça mesmo, prometo.
+## Sério, perde a graça mesmo, prometo!
+
+# E você ainda pode se iludir achando que aprendeu.
 
 De boa, **Pandas** são engraçados, mas olhar a questão sem tentar fazer **NÃO** é.
 
