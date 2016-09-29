@@ -84,3 +84,13 @@ Não é triângulo | A soma de dois lados é menor que o terceiro | 1, 1, 10
 - **esferas_batidas:** O tratamento de colisão é um dos principais campos de estudo em jogos eletrônicos.
 Uma forma muito simples de calcular uma colisão de duas esferas é pensar na distância entre os centros. Se a distância entre os centros for menor que a soma do raio das duas então elas estão em colisão. Faça um código que receba as posições x e y de ambas as esferas e seus raios e imprima se estão ou não em colisão.  
 [Respostas](01_condicionais/esferas_batidas.md)  
+
+**dinheiro:** No Brasil existem notas de 2, 5, 10, 20, 50 e 100 reais. Faça um programa que, dado um valor inteiro em reais, mostre a menor combinação de notas existente para esse valor.
+[Respostas](02_lacos/dinheiro.md
+
+## Joguinhos
+**jogar_par_impar:** Vamos fazer um campeonado de par ou ímpar. Peça para o jogador escolher entre Par ou Impar, depois pergunte quantos dedos ele vai colocar. Sorteie aleatoriamente um valor de dedos para máquina. Mostre quem ganhou. Faça o jogo continuar até alguém ganhar 5 vezes seguidas. Se quiser, pode mostrar o histórico das vitórias ao final.
+[Respostas](01_condicionais/jogar_par_impar.md)  
+
+
+[Respostas](00_joguinhos/par_impar.md)
