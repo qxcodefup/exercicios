@@ -4,6 +4,16 @@
 
 - **menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
 [Respostas](03_vetores/menor_vetor.md)
+<details><summary>_Clique para Dica_</summary>
+```
+percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontradro
+sempre que achar alguem menor atualize o valor da variavel auxiliar no final o menor
+valor estara armazenado na variavel auxilliar.
+```
+<\details>
+	>> 3 7 2 4 5
+	<< 2
+
 
 - **fibonacci:** Crie uma função que receba a quantidade n de termos e imprima os n termos da sequência de fibonacci.
 [Respostas](03_vetores/fibonacci.md)
