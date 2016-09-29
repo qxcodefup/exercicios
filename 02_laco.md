@@ -1,8 +1,13 @@
 # Exercícios de Repetição
 
-As atividades devem usar apenas laço. Não use vetores para nenhuma delas. Nosso objetivo é aprimorar nosso domínio de laço. Nossas questões seguem um modelo que contém nome, descrição breve, respostas, modelo de entrada e saída[às vezes] e dicas[às vezes].
+As atividades devem usar apenas laço. Não use vetores para nenhuma delas. Nosso objetivo é aprimorar nosso domínio de laço. Nossas questões seguem um modelo que contém
+- nome,
+- descrição breve,
+- respostas,
+- modelo de entrada e saída[às vezes] e
+- dicas[às vezes].
 
-Se o modelo das dicas não funciona no clique com você, atualize seu browser. No chrome e firefox atualizado elas funcionam.
+Se o modelo das dicas não funcionar no clique com você, atualize seu browser. No chrome e firefox atualizado elas funcionam direitinho.
 
 **esse_eh_o_nome_da_questao:** Aqui vai a descrição da questão.
 [Aqui vai a Resposta](02_lacos/esse_eh_o_nome_da_questao.md)
