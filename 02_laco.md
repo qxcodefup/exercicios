@@ -7,18 +7,18 @@ Se o modelo das dicas não funciona no clique com você, atualize seu browser. N
 **esse_eh_o_nome_da_questao:** Aqui vai a descrição da questão.
 [Aqui vai a Resposta](02_lacos/esse_eh_o_nome_da_questao.md)
 
-    >> Esse símbolos representam a ENTRADA de dados para sua questão.
-    >> A entrada pode ter mais de uma linha
-    << Esse símbolos representam a SAÍDA de dados para sua questão.
+    >> símbolos que representam a ENTRADA de dados.
+    >> A entrada pode ter mais de uma linha.
+    << símbolos que representam a SAÍDA para sua questão.
 
 <details><summary> _Clique para ver a Dica_> </summary>
-Quando tiver uma dica, que você só deve ser se estiver com dificuldades para fazer a questão, ela estará dentro desse bloco.
+Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldades para fazer a questão, ela estará dentro desse bloco.
 
 ```
     se ela for um pseudocodigo:
         entao ela estará em um bloco assim
     senão
-        sei lá!!!
+        return 0;
 ```
 </details>
 
