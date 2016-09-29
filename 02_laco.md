@@ -9,134 +9,73 @@ Sugestão: use o google-chrome.
 ---
 
 ## Controle Básico
-**[0a20:](02_lacos/0a20.md)**
-Faça um laço que mostre os números ímpares entre 0 e 20.
+**0a20:** Faça um laço que mostre os números ímpares entre 0 e 20.
+[Respostas](02_lacos/0a20.md)
 
     1 3 5 ... 19
 
-**[1a31:](02_lacos/1a31.md)**
-Faça um laço para imprimir de 1 a 31, de 3 em 3
+**1a31:**
+Faça um laço para imprimir de 1 a 31, de 3 em 3.
+[Respostas](02_lacos/1a31.md)
 
     1 4 7 10 ... 31
 
 
-**[10a2neg:](02_lacos/10a2neg.md)**
-Um laço para imprimir de 10 até 0 de 2 em 2
+**10a2neg:**
+Um laço para imprimir de 10 até 0 de 2 em 2.
+[Respostas](02_lacos/10a2neg.md)
 
     10 8 6 4 2 0
 
 
 **ij_alternado:** Com dois contadores, imprima 'i' indo de 0 até 10 enquanto 'j' vai de 10 até 0. Em um mesmo laço, a cada interação incremente 'i' e decremente 'j'. Imprima ambos.
+[Respostas](02_lacos/ij_alternado.md)
 
     [0 10] [1 9] [2 8] ... [8 2] [9 1] [10 0]
-[Respostas](02_lacos/ij_alternado.md)  
+
 
 **so_i:** Faça o exercício anterior usando apenas um contador.
+[Respostas](02_lacos/so_i.md)  
 
     dica: imprima << i << " " << (10 - i)
-[Respostas](02_lacos/so_i.md)  
+
 
 ## Rand e Busca
 **rand5:** Usando um laço, sorteie 5 números entre 0 e 100, imprima-os, e no final, mostre o menor.
+[Respostas](02_lacos/rand5.md)  
 
     20 43 15 18 91 12
     12
-[Respostas](02_lacos/rand5.md)  
-
 
 **rand5mM:** Usando um laço apenas, sorteie 5 números e mostre ao final o menor e o maior.
-    20 43 15 18 91 12
-    12 43
 [Respostas](02_lacos/rand5mM.md)  
 
----
-**os_do_meio:** Usando um laço apenas, sorteie 5 números. Retire o maior e o menor e mostre a média dos que sobraram. Dica: some todos e depois subtraia do maior e do menor
+    20 43 15 18 91 12
+    12 43
+
+**os_do_meio:** Usando um laço apenas, sorteie 5 números. Retire o maior e o menor e mostre a média dos que sobraram. Dica: some todos e depois subtraia do maior e do menor.
 [Respostas](02_lacos/os_do_meio.md)  
 
-
----
-### Pegar números do usuários até ele digitar -1, depois imprima a média.
-
-<details><summary>C</summary>
-```c
-    int qtd = 0;
-    int soma = 0;
-    int num;//o numero do usuario
-    while(num != -1){
-        puts("Digite um numero, -1 para sair");
-        scanf("%d", &num);
-        if(num == -1)
-            break;
-        total += num;
-        qtd++;
-    }
-    printf("%f", (total/(float)qtd));
-    return 0;
-```
-</details>
-
----
-
-### Dado um número qualquer, imprima ao contrario.
-    >> 574839
-    << 938475
-
-<details><summary>DICA</summary>
-```DICA
-    leia numero
-    enquanto numero for diferente de zero
-        unidade eh numero modulo 10
-        imprima unidade
-        divida o numero por 10
-```
-</details>
-
-<details><summary>C</summary>
-```c
-    int num = 0;
-    scanf("%d", num);
-    while(num != 0){
-        printf("%d", (num % 10));
-        num = num / 10;
-    }
-```
-</details>
-
----
-### Dado um número e uma posição, retorne o dígito correspondente. 0 para unidade, 1 para dezena, 2 para centena, etc.
-    >> 3652 2
-    << 6
-
-<details><summary>C</summary>
-```c
-    int num = 0;
-    int digito;
-    scanf("%d %d", num, digito);
-    for(int i = 0; i < digito; i++)
-        num = num / 10;
-    printf("%d", (num % 10));
-```
-</details>
+**ate_menos_1:** Pegar números do usuários até ele digitar -1, depois imprima a média.
+[Respostas](02_lacos/ate_menos_1.md)
 
 
-
-
-- **fatorial:** Escreva um programa que leia um número N, inteiro maior que zero, e calcule o fatorial desse número.  
+**fatorial:** Escreva um programa que leia um número N, inteiro maior que zero, e calcule o fatorial desse número.  
 [Respostas](02_lacos/fatorial.md)
 
-- **potencia:** Sejam a e b dois números naturais. Determinar o valor da potência a b dados a e b como entrada.  
+**potencia:** Sejam a e b dois números naturais. Determinar o valor da potência a b dados a e b como entrada.  
 [Respostas](02_lacos/potencia.md)
 
-- **juizes:** Numa competição de natação, oito juízes dão notas entre 0 e 10. Das notas recebidas, a menor e a maior são descartadas, e a nota do atleta é dada pela média entre as seis notas restantes. Faça um programa que receba as oito notas dos juízes e apresente a nota do atleta.  
+**juizes:** Numa competição de natação, oito juízes dão notas entre 0 e 10. Das notas recebidas, a menor e a maior são descartadas, e a nota do atleta é dada pela média entre as seis notas restantes. Faça um programa que receba as oito notas dos juízes e apresente a nota do atleta.  
 [Respostas](02_lacos/juizes.md)
 
-**500_impares:** Imprimir números naturais ímpares menores que 500.  
+**500_impares:** Imprimir números naturais ímpares menores que 500.
 [Respostas](02_lacos/500_impares.md)
 
 **500_pares:** Imprimir números naturais pares menores que 500 em ordem decrescente. Nesse caso não iremos considerar o zero.
 [Respostas](02_lacos/500_pares.md)
 
-**200_primeiros:** Determinar a soma dos primeiros 200 números naturais que sejam divisíveis por 3 mas que não sejam divisíveis por 7.  
+**200_primeiros:** Determinar a soma dos primeiros 200 números naturais que sejam divisíveis por 3 mas que não sejam divisíveis por 7.
 [Respostas](02_lacos/200_primeiros.md)
 
 
@@ -178,11 +117,14 @@ Um laço para imprimir de 10 até 0 de 2 em 2
 
 **pega_casa:** Dado um número e uma casa, retorne a casa decimal desse número. Casa 0 é unidade,
 casa 1 é a dezena, casa 2 a centena, etc.
+[Respostas](02_lacos/pega_casa.md)
 
     in : 1452 2
     out: 4
 
 **contrario:** O reverso de um número natural é o número obtido pela inversão da ordem de seus dígitos. Por exemplo, o reverso de 127 é 721. Determinar o reverso de um número natural dado como entrada.
+[Dicas](02_lacos/contrario_dica.md),
+[Respostas](02_lacos/contrario.md)
 
     in : 1432
     out: 2341
