@@ -7,7 +7,8 @@ As atividades devem usar apenas laço. Não use vetores para nenhuma delas. Noss
 - modelo de entrada e saída[às vezes] e
 - dicas[às vezes].
 
-Se o modelo das dicas não funcionar no clique com você, atualize seu browser. No chrome e firefox atualizado elas funcionam direitinho.
+Se o modelo de clicar nas dicas não funcionar com você, atualize seu browser.
+No chrome e firefox atualizados elas funcionam direitinho.
 
 **esse_eh_o_nome_da_questao:** Aqui vai a descrição da questão.
 [Aqui vai a Resposta](02_lacos/esse_eh_o_nome_da_questao.md)
@@ -30,7 +31,7 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 ---
 ## Controle Básico
 **0a20:** Faça um laço que mostre os números ímpares entre 0 e 20.
-[Respostas](02_lacos/0a20.md)
+[Respostas C Py](02_lacos/0a20.md)
 
     << 1 3 5 ... 19
 
