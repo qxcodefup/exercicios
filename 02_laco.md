@@ -1,14 +1,9 @@
 # Exercícios de Repetição
 
-As atividades devem usar apenas laço. Não use vetores para nenhuma delas. Nosso objetivo é aprimorar nosso domínio de laço.
+As atividades devem usar apenas laço. Não use vetores para nenhuma delas. Nosso objetivo é aprimorar nosso domínio de laço. Nossas questões seguem um modelo que contém nome, descrição breve, respostas, modelo de entrada e saída[às vezes] e dicas[às vezes].
 
-Clique no título da questão para ver as respostas [C, C++, Python].
+Se o modelo das dicas não funciona no clique com você, atualize seu browser. No chrome e firefox atualizado elas funcionam.
 
-Sugestão: use o google-chrome. A visualização dos códigos e dicas fica mais elegante nele.
-
-Nossas questões seguem o seguinte **modelo**.
-
-## Modelo das questões
 **esse_eh_o_nome_da_questao:** Aqui vai a descrição da questão.
 [Aqui vai a Resposta](02_lacos/esse_eh_o_nome_da_questao.md)
 
@@ -188,7 +183,7 @@ e sua rotação à esquerda.
 
     >> 43651
     << 36514 65143 51436 14365 43651
-    
+
 ## Joguinhos
 
 **palpite:** Faça um programa que apresente um palpite para um jogo da loteria. Nossa loteria consiste de seis números inteiros aleatórios entre 0 e 100. Será que você consegue garantir que serão seis número diferentes sem usar vetores. Provavelmente vai ter que usar 6 laços e testar manualmente se o número gerado não é igual a nenhum dos anteriores.
