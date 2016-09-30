@@ -6,23 +6,23 @@ Esse repositório tem por objetivo propor vários exercícios simples de program
 
 ### Exercícios
 
-[Condicionais](01_condicionais.md)
+[Condicionais](01_condicionais.md#ufc)
 
-[Laço](02_laco.md)
+[Laço](02_laco.md#ufc)
 
-[Vetores](03_vetores.md)
+[Vetores](03_vetores.md#ufc)
 
-[String](04_strings.md)
+[String](04_strings.md#ufc)
 
-[Recursão](08_recursividade.md)
+[Recursão](08_recursividade.md#ufc)
 
-[Funções](09_funcoes.md)
+[Funções](09_funcoes.md#ufc)
 
 ### IDEs
-[Configure sua IDE.](ides/Readme.md)
+[Configure sua IDE.](ides/Readme.md#ufc)
 
 ### Baixando para estudar offline
-[Baixando e estudando offline.](offline/Readme.md)
+[Baixando e estudando offline.](offline/Readme.md#ufc)
 
 ### Última sugestão
 

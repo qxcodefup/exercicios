@@ -1,3 +1,4 @@
+### ufc
 # Exercícios de Repetição
 
 As atividades devem usar apenas laço. Não use vetores para nenhuma delas. Nosso objetivo é aprimorar nosso domínio de laço. Nossas questões seguem um modelo que contém

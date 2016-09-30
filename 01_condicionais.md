@@ -1,3 +1,4 @@
+### ufc
 # EXERCÍCIOS DE ESTRUTURA DE DECISÃO
 
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
