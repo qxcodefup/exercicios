@@ -2,11 +2,11 @@
 
 ## FÁCEIS
 
-- **menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
+**menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
 [Respostas](03_vetores/menor_vetor.md)
 <details><summary>_Clique para a Dica_</summary>
 ```
-	percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontradro
+	percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontrado
 	sempre que achar alguem menor atualize o valor da variavel auxiliar no final o menor
 	valor estara armazenado na variavel auxilliar.
 ```
@@ -16,7 +16,7 @@
 	<< 2
 
 
-- **fibonacci:** Crie uma função que receba a quantidade n de termos e imprima os n termos da sequência de fibonacci.
+**fibonacci:** Crie uma função que receba a quantidade n de termos e imprima os n termos da sequência de fibonacci.
 [Respostas](03_vetores/fibonacci.md)
 <details><summary>_Clique para a Dica_</summary>
 ```
@@ -30,7 +30,7 @@ depois é so fazer um loop somando a posicao vet[n-1] + vet[n-2] ate o enesimo t
 
 Curioso sobre a sequencia de fibbonaci? veja mais sobre https://en.wikipedia.org/wiki/Fibonacci_number
 
-- **busca_linear:** A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como 
+**busca_linear:** A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como 
 entrada um vetor de números L e um número x, determinar utilizando busca linear se x está ou não presente em L.
 [Respostas](03_vetores/busca_linear.md)
 
