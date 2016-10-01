@@ -2,14 +2,16 @@
 
 ## FÁCEIS
 
-- **menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
+**menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
 [Respostas](03_vetores/menor_vetor.md)
-<details><summary>_Clique para a Dica_</summary>
+<details><summary> _Clique para a Dica_ </summary>
+
 ```
-percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontradro
-sempre que achar alguem menor atualize o valor da variavel auxiliar no final o menor
-valor estara armazenado na variavel auxilliar.
+	percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontradro
+	sempre que achar alguem menor atualize o valor da variavel auxiliar no final o menor
+	valor estara armazenado na variavel auxilliar.
 ```
+
 </details>
 	>> 3 7 2 4 5
 	<< 2
