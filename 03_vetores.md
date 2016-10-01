@@ -33,11 +33,43 @@ Curioso sobre a sequencia de fibbonaci? veja mais sobre https://en.wikipedia.org
 **busca_linear:** A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como 
 entrada um vetor de números L e um número x, determinar utilizando busca linear se x está ou não presente em L.
 [Respostas](03_vetores/busca_linear.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	leia o numero
+	de i <- 0 ate n-1
+		se v[i] = numero
+		retorne verdade
+	retorne falso
+```
+</details>
 
-- **maior_menor:** Faça um programa que leia 15 números inteiros e os armazene em um vetor A. Determine então qual o maior e o menor destes números e quantas vezes este maior e este menor ocorrem no vetor. No final, apresente esses valores.
+	>> 3
+	>> 2 4 3 2 5
+	<< verdade
+
+	>> 3
+	>> 1 2 5 6 8
+	>> falso 
+
+**maior_menor:** Faça um programa que leia 15 números inteiros e os armazene em um vetor A. Determine então qual o maior e o menor destes números e quantas vezes este maior e este menor ocorrem no vetor. No final, apresente esses valores.
 [Respostas](03_vetores/maior_menor.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	uma das formas de fazer eh a seguinte
+	faca menor = A[0], maior = A[0]
+	percorra o vetor sempre que encontrar um valor menor que a variavel menor atualize a variavel
+	da mesma forma para o maior, no final voce tera o maior e menor
+	entao basta percorrer o vetor novamente contando o numero de vezes que cada uma delas aparece
+```
+</details>
 
-- **vetor_reverso:** Faça um programa que receba um vetor A de 10 elementos e construa um vetor B que possui os mesmos números de A, sendo que na ordem invertida.
+	>> 1 3 4 5 5 2
+	<< maior: 5
+	<< apareceu: 2x
+	<< menor 1: 
+	<< apareceu: 1x
+
+**vetor_reverso:** Faça um programa que receba um vetor A de 10 elementos e construa um vetor B que possui os mesmos números de A, sendo que na ordem invertida.
 [Respostas](03_vetores/vetor_reverso.md)
 
 - **vetor_primos:** Escreva um programa que determine os 30 primeiros números primos e armazene-os em um vetor chamado PRIMOS. No final, apresente o conteúdo do vetor.
