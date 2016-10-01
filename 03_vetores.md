@@ -1,5 +1,9 @@
 ## EXERCÍCIOS DE VETORES
 
+#Lembre-se, só acesse o link de respostas na pior das hipóteses!
+#Do or do not. There is no try.
+#- Yoda.
+
 ## FÁCEIS
 
 **menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
