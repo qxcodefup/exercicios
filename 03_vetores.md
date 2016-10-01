@@ -1,6 +1,6 @@
 ## EXERCÍCIOS DE VETORES
 
-####Lembre-se, só acesse o link de respostas na pior das hipóteses!
+####Lembre-se, a resposta da questao é sua ultima opção!
 ####Do or do not. There is no try.
 ####- Yoda.
 
@@ -75,11 +75,31 @@ entrada um vetor de números L e um número x, determinar utilizando busca linea
 
 **vetor_reverso:** Faça um programa que receba um vetor A de 10 elementos e construa um vetor B que possui os mesmos números de A, sendo que na ordem invertida.
 [Respostas](03_vetores/vetor_reverso.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	depois de preencher o vetor A faca
+	de i <- 0 até n-1 faca
+		B[i] = A[n-1-i]
+```
+</details>
 
-- **vetor_primos:** Escreva um programa que determine os 30 primeiros números primos e armazene-os em um vetor chamado PRIMOS. No final, apresente o conteúdo do vetor.
+	>> 3 4 2 1 5
+	<< 5 1 2 4 3
+
+**vetor_primos:** Escreva um programa que determine os 30 primeiros números primos e armazene-os em um vetor chamado PRIMOS. No final, apresente o conteúdo do vetor.
 [Respostas](03_vetores/vetor_primos.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	use uma funcao que determina se um numero eh primo
+	se tiver duvidas com isto olhe esta resolucao que fizemos na secao de lacos [Resolucao eh_primo](02_lacos/eh_primo.md)
+	depois disto basta fazer um laco indo de 2 ate 100 (ate la voce ja tera encontrado 30 primos)
+	e sempre que encontra um numero primo atraves da funcao eh_primo adicione ao vetor, quando tiver 30 numeros pare o laco
+```
+</details>
 
-- **uniao_vetores:** Faça um programa que leia dois vetores A e B de 6 elementos. A só deverá aceitar valores pares enquanto que B só receberá valores ímpares. O programa deve alertar caso valores errados sejam passados e pedir pro usuário informar um valor correto. Apresentar um vetor C formado pela união dos elementos de A e B (C deverá ter 12 elementos).
+	<< 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 
+
+**uniao_vetores:** Faça um programa que leia dois vetores A e B de 6 elementos. A só deverá aceitar valores pares enquanto que B só receberá valores ímpares. O programa deve alertar caso valores errados sejam passados e pedir pro usuário informar um valor correto. Apresentar um vetor C formado pela união dos elementos de A e B (C deverá ter 12 elementos).
 [Respostas](03_vetores/uniao_vetores.md)
 
 - **iguaisa30:** Faça um programa que preencha um vetor com quinze elementos inteiros e verifique a existência de elementos iguais a 30, mostrando as posições em que apareceram.
