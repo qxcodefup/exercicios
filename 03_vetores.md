@@ -105,23 +105,20 @@ entrada um vetor de números L e um número x, determinar utilizando busca linea
 **uniao_vetores:** Faça um programa que leia dois vetores A e B de 6 elementos. A só deverá aceitar valores pares enquanto que B só receberá valores ímpares. O programa deve alertar caso valores errados sejam passados e pedir pro usuário informar um valor correto. Apresentar um vetor C formado pela união dos elementos de A e B (C deverá ter 12 elementos).
 [Respostas](03_vetores/uniao_vetores.md)
 
-- **iguaisa30:** Faça um programa que preencha um vetor com quinze elementos inteiros e verifique a existência de elementos iguais a 30, mostrando as posições em que apareceram.
+**iguaisa30:** Faça um programa que preencha um vetor com quinze elementos inteiros e verifique a existência de elementos iguais a 30, mostrando as posições em que apareceram.
 [Respostas](03_vetores/iguaisa30.md)
 
-- **busca_rep:** Faça um programa que receba um vetor de 10 elementos positivos e que o usuário possa pesquisar se um determinado elemento existe no vetor. Caso exista o programa exibirá o índice no qual o valor está posicionado; caso contrário, mostrar que o elemento não existe no vetor. O programa deve possibilitar que o usuário faça quantas pesquisas ele quiser, só encerrando quando o usuário informar um número negativo.
+**busca_rep:** Faça um programa que receba um vetor de 10 elementos positivos e que o usuário possa pesquisar se um determinado elemento existe no vetor. Caso exista o programa exibirá o índice no qual o valor está posicionado; caso contrário, mostrar que o elemento não existe no vetor. O programa deve possibilitar que o usuário faça quantas pesquisas ele quiser, só encerrando quando o usuário informar um número negativo.
 [Respostas](03_vetores/busca_rep.md)
 
-- **vetor_semrep:** Faça um programa que receba 20 números do usuário e armazene-os em um vetor. O programa não pode aceitar valores repetidos, pedindo para o usuário informar outro número até que este apresente um número não repetido.
+**vetor_semrep:** Faça um programa que receba 20 números do usuário e armazene-os em um vetor. O programa não pode aceitar valores repetidos, pedindo para o usuário informar outro número até que este apresente um número não repetido.
 [Respostas](03_vetores/vetor_semrep.md)
 
 ## MÉDIAS
 
 11. Faça um programa que preencha um vetor de dez números inteiros e um segundo vetor com cinco números inteiros, calcule e mostre dois vetores resultantes. O primeiro vetor resultante será composto pela soma dos números pares do primeiro vetor somado a cada elemento do segundo vetor. O segundo vetor resultante será composto pela soma de números impares do primeiro vetor somado com cada elemento do segundo vetor.
 
-12. Faça um programa que leia um conjunto de quinze valores e armazene-os em um vetor. A seguir, separe-os em dois outros vetores (P e I) com cinco posições cada. O vetor P armazena números pares e o vetor I, números ímpares. Como o tamanho dos vetores pode não ser suficiente para armazenar todos os números, deve-se sempre verificar se já estão cheios. Caso P ou I estejam cheios, deve-se mostrá-los e recomeçar o preenchimento da primeira posição.
-Terminado o processamento, mostre o conteúdo restante dentro dos vetores P e I.
-
-13. Dado um vetor de números inteiros, determinar,
+12. Dado um vetor de números inteiros, determinar,
 (a) A soma dos elementos.
 (b) A média dos elementos.
 (c) A soma dos elementos pares subtraída da soma dos elementos ímpares.
