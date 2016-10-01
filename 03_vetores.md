@@ -2,17 +2,16 @@
 
 ## FÁCEIS
 
-**menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
+- **menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
 [Respostas](03_vetores/menor_vetor.md)
-<details><summary> _Clique para a Dica_ </summary>
-
+<details><summary>_Clique para a Dica_</summary>
 ```
 	percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontradro
 	sempre que achar alguem menor atualize o valor da variavel auxiliar no final o menor
 	valor estara armazenado na variavel auxilliar.
 ```
-
 </details>
+
 	>> 3 7 2 4 5
 	<< 2
 
@@ -25,6 +24,7 @@ inicie as duas primeiras posicoes com 0, 1 respectivamente
 depois é so fazer um loop somando a posicao vet[n-1] + vet[n-2] ate o enesimo termo
 ```
 </details>
+
 	>> 6
 	<< 0 1 1 2 3 5
 
