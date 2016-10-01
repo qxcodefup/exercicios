@@ -1,8 +1,11 @@
 ## EXERCÍCIOS DE VETORES
 
-####Lembre-se, a resposta da questao é sua ultima opção!
-####Do or do not. There is no try.
-####- Yoda.
+####Lembre-se, tenha o link de resposta como sua ultima opção!
+####
+```
+Do or do not. There is no try.
+- Yoda.
+```
 
 ## FÁCEIS
 
