@@ -25,7 +25,7 @@ int main() {
 
 </details>
 
-<details><summary>[**Python**](_)</summary>()
+<details><summary>**Python**</summary>()
 
 ```python
 numero = int(input("Digite um numero inteiro: "))
