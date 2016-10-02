@@ -1,46 +1,47 @@
 ### ufc
 # EXERCÍCIOS DE ESTRUTURA DE DECISÃO
 
+As atividades devem usar apenas estruturas de decisao. Não use laços para nenhuma delas. Nosso objetivo é aprimorar nosso domínio de estruturas de decisao. Nossas questões seguem um modelo que contém
+- nome,
+- descrição breve,
+- respostas,
+- modelo de entrada e saída[às vezes] e
+- dicas[às vezes].
+
+Se o modelo de clicar nas dicas não funcionar com você, atualize seu browser.
+No chrome e firefox atualizados elas funcionam direitinho.
+
+**esse_eh_o_nome_da_questao:** Aqui vai a descrição da questão.
+[Aqui vai a Resposta](02_lacos/esse_eh_o_nome_da_questao.md)
+
+    >> símbolos que representam a ENTRADA de dados.
+    >> A entrada pode ter mais de uma linha.
+    << símbolos que representam a SAÍDA para sua questão.
+    << A saida pode ter mais de uma linha
+
+<details><summary> _Clique para ver a Dica_ </summary>
+Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldades para fazer a questão, ela estará dentro desse bloco.
+
+```
+    se ela for um pseudocodigo:
+        entao ela estará em um bloco assim
+    senão
+        return 0;
+```
+</details>
+
+---
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
 
-<details><summary>**C**</summary>
-
-```c
-#include <stdio.h>
-
-int main() {
-  int numero;
-  printf("Digite um numero inteiro: ");
-  scanf("%d", &numero);
-
-  //Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
-  if (numero % 2 == 0)
-      printf("Par\n");
-  else
-      printf("Impar\n");
-
-  return 0;
-}
-```
-
-</details>
-
-<details><summary>**Python**</summary>()
-
-```python
-numero = int(input("Digite um numero inteiro: "))
-#Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
-if numero % 2 == 0:
-  print "Par"
-else
-  print "Impar"
-```
-
-</details>
+    >> 5
+    << impar
 
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
 [Respostas](01_condicionais/maior_dois.md)  
+
+    >> 7 8
+    << 8
 
 - **maior_tres:** Determinar o maior de três números inteiros dados como entrada.  
 [Respostas](01_condicionais/maior_tres.md)  
@@ -48,14 +49,26 @@ else
 - **mm_cinco:** Escreva um programa que leia cinco números inteiros e informa qual o maior e qual o menor número dentre eles.  
 [Respostas](01_condicionais/mm_cinco.md)
 
+    >> 2 0 5 9 7
+    << 9 0
+
 - **resto_mm:** Dados dois números naturais como entrada, determinar o resto da divisão do maior pelo menor quando possível.  
 [Respostas](01_condicionais/resto_mm.md)  
+
+    >> 5 8
+    << 3
 
 - **eh_divisivel:** Faça um algoritmo que determine se um número é divisível ou não por outro.  
 [Respostas](01_condicionais/eh_divisivel.md)
 
+    >> 5 9
+    << nao
+
 - **ordena_tres:** Faça um programa que ordene três números informados pelo usuário.  
 [Respostas](01_condicionais/ordena_tres.md)  
+
+    >> 8 3 5
+    << 3 5 8
 
 - **ordem_intruso:** Faça um programa que receba três números obrigatoriamente em ordem crescente e
 um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em
@@ -64,7 +77,7 @@ ordem decrescente. Suponha que o usuário digitará quatro números diferentes.
 
 - **rendimento_alunos:** Dois alunos fizeram três provas. Dadas estas notas como entrada, determinar qual dos
 dois alunos apresentou melhor rendimento.  
-[Respostas](01_condicionais/rendimento_alunos.md)  OK
+[Respostas](01_condicionais/rendimento_alunos.md)
 
 - **aposentados** Crie um sistema que receba a dezena da idade de uma pessoa e classifique quanto à
  tabela abaixo:

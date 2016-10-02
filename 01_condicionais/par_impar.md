@@ -41,13 +41,3 @@ int main() {
 ```
 
 ### Python
-```python
-numero = int(input("Digite um numero inteiro: "))
-
-#Se um numero qualquer dividido por 2 tiver resto zero sera PAR  
-if numero % 2 == 0:
-  print "Par"
-else
-  print "Impar"
-
-```
