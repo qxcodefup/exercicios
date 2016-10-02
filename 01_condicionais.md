@@ -34,8 +34,8 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
 
-      >> 5
-      << impar
+    >> 5
+    << impar    
 
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
 [Respostas](01_condicionais/maior_dois.md)  

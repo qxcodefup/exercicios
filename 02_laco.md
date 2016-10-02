@@ -69,9 +69,7 @@ imprima `i e (10 - i)`
 [Respostas](02_lacos/ponderada.md)
 <details><summary>_Clique para ver Dica_</summary>
 ```
-  A media ponderada =   (nota_1 * peso_1) + (nota_2 * peso_2) + (nota_3 * peso_3)
-                                                -------------------------------------------------------------------
-                                                                         peso_1 + peso_2 + peso_3
+  A media ponderada =   (nota_1 * peso_1) + (nota_2 * peso_2) + (nota_3 * peso_3)  / ( peso_1 + peso_2 + peso_3)
 ```
 </details>
 
