@@ -1,25 +1,48 @@
+### ufc
+## EXERCÍCIOS DE VETORES
+
 ## FÁCEIS
 
-00. Leia um vetor de inteiros e imprima o menor valor.  
+- **menor_vetor:** Leia um vetor de inteiros e imprima o menor valor.  
 [Respostas](03_vetores/menor_vetor.md)
+<details><summary>_Clique para Dica_</summary>
+```
+percorra o vetor usando uma variavel auxiliar para guardar o menor valor encontradro
+sempre que achar alguem menor atualize o valor da variavel auxiliar no final o menor
+valor estara armazenado na variavel auxilliar.
+```
+<\details>
+	>> 3 7 2 4 5
+	<< 2
 
-01. Crie uma função que receba a quantidade n de termos e imprima os n termos da sequência de fibonacci.
 
-02. A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como entrada um vetor de números L e um número x, determinar utilizando busca linear se x está ou não presente em L.
+- **fibonacci:** Crie uma função que receba a quantidade n de termos e imprima os n termos da sequência de fibonacci.
+[Respostas](03_vetores/fibonacci.md)
 
-04. Faça um programa que leia 15 números inteiros e os armazene em um vetor A. Determine então qual o maior e o menor destes números e quantas vezes este maior e este menor ocorrem no vetor. No final, apresente esses valores.
+- **busca_linear:** A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como 
+entrada um vetor de números L e um número x, determinar utilizando busca linear se x está ou não presente em L.
+[Respostas](03_vetores/busca_linear.md)
 
-05. Faça um programa que receba um vetor A de 10 elementos e construa um vetor B que possui os mesmos números de A, sendo que na ordem invertida.
+- **maior_menor:** Faça um programa que leia 15 números inteiros e os armazene em um vetor A. Determine então qual o maior e o menor destes números e quantas vezes este maior e este menor ocorrem no vetor. No final, apresente esses valores.
+[Respostas](03_vetores/maior_menor.md)
 
-06. Escreva um programa que determine os 30 primeiros números primos e armazene-os em um vetor chamado PRIMOS. No final, apresente o conteúdo do vetor.
+- **vetor_reverso:** Faça um programa que receba um vetor A de 10 elementos e construa um vetor B que possui os mesmos números de A, sendo que na ordem invertida.
+[Respostas](03_vetores/vetor_reverso.md)
 
-07. Faça um programa que leia dois vetores A e B de 6 elementos. A só deverá aceitar valores pares enquanto que B só receberá valores ímpares. O programa deve alertar caso valores errados sejam passados e pedir pro usuário informar um valor correto. Apresentar um vetor C formado pela união dos elementos de A e B (C deverá ter 12 elementos).
+- **vetor_primos:** Escreva um programa que determine os 30 primeiros números primos e armazene-os em um vetor chamado PRIMOS. No final, apresente o conteúdo do vetor.
+[Respostas](03_vetores/vetor_primos.md)
 
-08. Faça um programa que preencha um vetor com quinze elementos inteiros e verifique a existência de elementos iguais a 30, mostrando as posições em que apareceram.
+- **uniao_vetores:** Faça um programa que leia dois vetores A e B de 6 elementos. A só deverá aceitar valores pares enquanto que B só receberá valores ímpares. O programa deve alertar caso valores errados sejam passados e pedir pro usuário informar um valor correto. Apresentar um vetor C formado pela união dos elementos de A e B (C deverá ter 12 elementos).
+[Respostas](03_vetores/uniao_vetores.md)
 
-09. Faça um programa que receba um vetor de 10 elementos positivos e que o usuário possa pesquisar se um determinado elemento existe no vetor. Caso exista o programa exibirá o índice no qual o valor está posicionado; caso contrário, mostrar que o elemento não existe no vetor. O programa deve possibilitar que o usuário faça quantas pesquisas ele quiser, só encerrando quando o usuário informar um número negativo.
+- **iguaisa30:** Faça um programa que preencha um vetor com quinze elementos inteiros e verifique a existência de elementos iguais a 30, mostrando as posições em que apareceram.
+[Respostas](03_vetores/iguaisa30.md)
 
-10. Faça um programa que receba 20 números do usuário e armazene-os em um vetor. O programa não pode aceitar valores repetidos, pedindo para o usuário informar outro número até que este apresente um número não repetido.
+- **busca_rep:** Faça um programa que receba um vetor de 10 elementos positivos e que o usuário possa pesquisar se um determinado elemento existe no vetor. Caso exista o programa exibirá o índice no qual o valor está posicionado; caso contrário, mostrar que o elemento não existe no vetor. O programa deve possibilitar que o usuário faça quantas pesquisas ele quiser, só encerrando quando o usuário informar um número negativo.
+[Respostas](03_vetores/busca_rep.md)
+
+- **vetor_semrep:** Faça um programa que receba 20 números do usuário e armazene-os em um vetor. O programa não pode aceitar valores repetidos, pedindo para o usuário informar outro número até que este apresente um número não repetido.
+[Respostas](03_vetores/vetor_semrep.md)
 
 ## MÉDIAS
 

@@ -1,8 +1,7 @@
 
-
 ### Python
 ```python
-#-*- coding=utf-8 -*- 
+#-*- coding=utf-8 -*-
 from math import sqrt
 
 def eh_primo(numero):
