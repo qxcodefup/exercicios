@@ -34,8 +34,8 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
 
-    >> 5
-    << impar    
+        >> 5
+      << impar    
 
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
 [Respostas](01_condicionais/maior_dois.md)  
@@ -111,7 +111,7 @@ maior que 750| recebe R$ 550,00 (fixo) mais R$ 0,75 por peça fabricada acima da
 - **calculadora** Crie uma calculadora que receba o primeiro valor, depois o operador(adição, subtração, multiplicação ou divisão) e depois o segundo valor. No final exiba o resultado.  
 [Respostas](01_condicionais/calculadora.md)
 
-23.  **triangulo:** O critério de existência de um triângulo é definido por,
+- **triangulo:** O critério de existência de um triângulo é definido por,
 ```
 | b – c | < a < b + c
 ```
@@ -136,11 +136,11 @@ Não é triângulo | A soma de dois lados é menor que o terceiro | 1, 1, 10
 Uma forma muito simples de calcular uma colisão de duas esferas é pensar na distância entre os centros. Se a distância entre os centros for menor que a soma do raio das duas então elas estão em colisão. Faça um código que receba as posições x e y de ambas as esferas e seus raios e imprima se estão ou não em colisão.  
 [Respostas](01_condicionais/esferas_batidas.md)  
 
-**dinheiro:** No Brasil existem notas de 2, 5, 10, 20, 50 e 100 reais. Faça um programa que, dado um valor inteiro em reais, mostre a menor combinação de notas existente para esse valor.
+- **dinheiro:** No Brasil existem notas de 2, 5, 10, 20, 50 e 100 reais. Faça um programa que, dado um valor inteiro em reais, mostre a menor combinação de notas existente para esse valor.
 [Respostas](02_lacos/dinheiro.md)
 
 ## Joguinhos
-**jogar_par_impar:** Vamos fazer um campeonado de par ou ímpar. Peça para o jogador escolher entre Par ou Impar, depois pergunte quantos dedos ele vai colocar. Sorteie aleatoriamente um valor de dedos para máquina. Mostre quem ganhou. Faça o jogo continuar até alguém ganhar 5 vezes seguidas. Se quiser, pode mostrar o histórico das vitórias ao final.
+- **jogar_par_impar:** Vamos fazer um campeonado de par ou ímpar. Peça para o jogador escolher entre Par ou Impar, depois pergunte quantos dedos ele vai colocar. Sorteie aleatoriamente um valor de dedos para máquina. Mostre quem ganhou. Faça o jogo continuar até alguém ganhar 5 vezes seguidas. Se quiser, pode mostrar o histórico das vitórias ao final.
 [Respostas](01_condicionais/jogar_par_impar.md)  
 
 
