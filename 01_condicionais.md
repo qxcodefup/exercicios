@@ -34,14 +34,14 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 - **par_impar:** Elabore um programa que receba um número inteiro do usuário e informe se é par ou ímpar.  
 [Respostas](01_condicionais/par_impar.md)
 
-    >> 5
-    << impar
+      >> 5
+      << impar
 
 - **maior_dois:** Determinar o valor máximo de dois números A e B dados como entrada.  
 [Respostas](01_condicionais/maior_dois.md)  
 
-    >> 7 8
-    << 8
+      >> 7 8
+      << 8
 
 - **maior_tres:** Determinar o maior de três números inteiros dados como entrada.  
 [Respostas](01_condicionais/maior_tres.md)  
@@ -49,31 +49,34 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 - **mm_cinco:** Escreva um programa que leia cinco números inteiros e informa qual o maior e qual o menor número dentre eles.  
 [Respostas](01_condicionais/mm_cinco.md)
 
-    >> 2 0 5 9 7
-    << 9 0
+      >> 2 0 5 9 7
+      << 9 0
 
 - **resto_mm:** Dados dois números naturais como entrada, determinar o resto da divisão do maior pelo menor quando possível.  
 [Respostas](01_condicionais/resto_mm.md)  
 
-    >> 5 8
-    << 3
+      >> 5 8
+      << 3
 
 - **eh_divisivel:** Faça um algoritmo que determine se um número é divisível ou não por outro.  
 [Respostas](01_condicionais/eh_divisivel.md)
 
-    >> 5 9
-    << nao
+      >> 5 9
+      << nao
 
 - **ordena_tres:** Faça um programa que ordene três números informados pelo usuário.  
 [Respostas](01_condicionais/ordena_tres.md)  
 
-    >> 8 3 5
-    << 3 5 8
+      >> 8 3 5
+      << 3 5 8
 
 - **ordem_intruso:** Faça um programa que receba três números obrigatoriamente em ordem crescente e
 um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em
 ordem decrescente. Suponha que o usuário digitará quatro números diferentes.  
 [Respostas](01_condicionais/ordem_intruso.md)  
+
+      >> 4 6 7 5
+      << 7 6 5 4
 
 - **rendimento_alunos:** Dois alunos fizeram três provas. Dadas estas notas como entrada, determinar qual dos
 dois alunos apresentou melhor rendimento.  
@@ -105,8 +108,7 @@ maior que 500 mas <= 750 | R$ 0,50 por peça fabricada acima das 500;
 maior que 750| recebe R$ 550,00 (fixo) mais R$ 0,75 por peça fabricada acima das 750.  
 [Respostas](01_condicionais/fabrica.md)
 
-- **calculadora** Crie uma calculadora que receba o primeiro valor, depois o operador e depois o
-segundo valor. No final exiba o resultado.  
+- **calculadora** Crie uma calculadora que receba o primeiro valor, depois o operador(adição, subtração, multiplicação ou divisão) e depois o segundo valor. No final exiba o resultado.  
 [Respostas](01_condicionais/calculadora.md)
 
 23.  **triangulo:** O critério de existência de um triângulo é definido por,
@@ -135,7 +137,7 @@ Uma forma muito simples de calcular uma colisão de duas esferas é pensar na di
 [Respostas](01_condicionais/esferas_batidas.md)  
 
 **dinheiro:** No Brasil existem notas de 2, 5, 10, 20, 50 e 100 reais. Faça um programa que, dado um valor inteiro em reais, mostre a menor combinação de notas existente para esse valor.
-[Respostas](02_lacos/dinheiro.md
+[Respostas](02_lacos/dinheiro.md)
 
 ## Joguinhos
 **jogar_par_impar:** Vamos fazer um campeonado de par ou ímpar. Peça para o jogador escolher entre Par ou Impar, depois pergunte quantos dedos ele vai colocar. Sorteie aleatoriamente um valor de dedos para máquina. Mostre quem ganhou. Faça o jogo continuar até alguém ganhar 5 vezes seguidas. Se quiser, pode mostrar o histórico das vitórias ao final.
