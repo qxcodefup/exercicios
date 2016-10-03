@@ -1,12 +1,7 @@
-## C++
+### C++
 ```c++
-#include <iostream>
-
-using namespace std;
-int main()
-{
     int n = 1;
-    for(int i = 1; i < 64; i++){
+    for (int i = 1; i < 64; i++){
         n *= 2;
         cout << i << " " << n << endl;
     }
@@ -22,6 +17,12 @@ int main()
         lint *= 2;
         cout << i << " " << lint << endl;
     }
-    return 0;
-}
+```
+
+### Python
+```python
+n = 1
+for i in range(1, 64):
+    n *= 2
+    print i, n
 ```
