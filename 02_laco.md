@@ -62,19 +62,11 @@ imprima `i e (10 - i)`
 
 **sequencia_1:** Faça um programa que escreva os 10 primeiros termos da seqüência abaixo.
 [Respostas](01_lacos/sequencia_1.md)
-
-    << 1, 3, 7, 15, 31, 63, 127...
-
-**ponderada:** Faça um programa que calcula a media ponderada de 3 notas e seus pesos. A entrada é a nota seguida pelo seu peso. Use duas casa decimais para a saida.
-[Respostas](02_lacos/ponderada.md)
 <details><summary>_Clique para ver Dica_</summary>
-```
-  A media ponderada =   (nota_1 * peso_1) + (nota_2 * peso_2) + (nota_3 * peso_3)  / ( peso_1 + peso_2 + peso_3)
-```
+Formula da sequencia é 2^k - 1
 </details>
 
-    >> 7 1 8 2 9 3
-    <<  8.33
+    << 1, 3, 7, 15, 31, 63, 127...
 
 **maior_pot_2:** Utilizando um laço, descubra qual a maior potência de dois que cabe em um `int`. Depois teste com `unsigned int` e com `unsigned long int`.
 [Respostas](02_lacos/maior_pot_2.md)
