@@ -17,9 +17,9 @@ int numero;
 scanf("%d", &numero);
 
 if (eh_primo(numero) == TRUE)
-    printf("SIM\n" );
+    printf("SIM\n");
 else  
-    printf("NAO\n" );
+    printf("NAO\n");
 ```
 
 ### Python
@@ -28,7 +28,7 @@ else
 from math import sqrt
 
 def eh_primo(numero):
-    if numero == 1 or  (numero % 2 == 0 and numero != 2): # 1 nao é primo
+    if numero == 1 or (numero % 2 == 0 and numero != 2): # 1 nao é primo
       return False # nao existe numero primo par com exceção do 2
     #para economizer vamos percorrer ate a a raiz do numero
     for value in range(2, int(sqrt(numero)) + 1, 1):
