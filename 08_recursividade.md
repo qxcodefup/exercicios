@@ -1,6 +1,6 @@
 ### ufc
 01.  Fazer uma função recursiva que faça a potenciação na base 2. Receber o expoente  e retornar o resultado.
-[Resposta](08_recursividade/potencia_de_base.md)
+[Resposta](08_recursividade/Potencia_de_base.md)
 02.  Fazer Fibonacci recursivo.
 [Resposta](08_recursividade/Fibonacci.md)
 03.  Faça uma função recursiva para saber um número recebido é par.
