@@ -1,4 +1,3 @@
-### ufc
 ## EXERCÍCIOS DE VETORES
 
 ####Lembre-se, tenha o link de resposta como sua ultima opção!
@@ -157,3 +156,4 @@ e) Interseção entre X e Y (Apenas os elementos que aparecem nos dois vetores, 
 30. Um número é dito pandigital se seus dígitos são todos distintos entre si. Construir função que determine se um número passado como argumento é ou não pandigital.
 
 35. Implemente a busca binária.
+
