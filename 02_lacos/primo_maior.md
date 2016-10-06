@@ -26,7 +26,7 @@ int main(){
             break;
     
     if (tem_menor == FALSE)
-	printf("%d", 0); 
+         printf("%d", 0); 
 
 }
 ```
