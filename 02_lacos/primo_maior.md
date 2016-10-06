@@ -15,13 +15,18 @@ int eh_primo(int numero){
 }
 
 int main(){
-    int num;
+    int num; 
+    int tem_menor = FALSE;
     scanf("%d", &num);
 
     for (int value = num - 1; value > 1; value -= 1)
         if eh_primo(value) == TRUE:
             printf("%d", value);
+	    tem_menor = TRUE;
             break;
+    
+    if (tem_menor == FALSE)
+	printf("%d", 0); 
 
 }
 ```
@@ -37,8 +42,14 @@ def eh_primo(numero):
     return True
 
 num = int (input ())
+tem_menor = False
+
 for value in range(num - 1, 1, -1):
     if eh_primo(value):
         print value
+	tem_menor = True
         break
+
+if tem_menor == False:
+    print 0
 ```
