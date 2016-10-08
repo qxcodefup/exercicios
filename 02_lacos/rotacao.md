@@ -29,7 +29,7 @@ def RE(numero):
 
 num = int (input ())
 
-print 'RE', re(num)
+print 'RE', RE(num)
 
 print 'RD', RD(num)
 
