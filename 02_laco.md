@@ -217,14 +217,14 @@ até n, contados de 2 em 2. Dado um numero natural n calcule seu fatorial duplo.
 Dado 10010 a saída será 18, pois 1 * 2⁴ + 0 * 2³ + 0 * 2² + 1 * 2¹ + 0 * 2⁰ = 18.
  </details>
 
-   >> 111
-   << 7
+      >> 111
+      << 7
 
 **quadrado_perfeito:** Um quadrado perfeito é um número natural cuja raiz quadrada também pertence aos naturais. O conjunto dos quadrados perfeitos é {1, 4, 9, 16, 25, 36, 49, · · · }. Dado um inteiro de entrada determinar apenas com multiplicação e laço se este número é um quadrado perfeito.
 [Respostas](02_lacos/quadrado_perfeito.md)
 
       >> 4
-      <<  sim
+      << sim
 
 **mdc:** O máximo divisor comum, ou mdc, de dois números naturais a e b é o maior número inteiro não nulo menor que a e b e pelo qual ambos podem ser divididos (resto igual a zero). Calcule o mdc.
 [Respostas](02_lacos/mdc.md)
