@@ -1,35 +1,32 @@
 ### C
 ```c
-#include <stdio.h>
 #include <math.h>
+#define TRUE 1
+#define FALSE 0
 
-#define False 0
-#define True 1
-
-int eh_primo(numero){
+int eh_primo(int numero){
+    int i;
     if (numero == 1 || (numero % 2 == 0 && numero != 2))
-        return False;
-    for (int i = 3; i < sqrt(numero) + 1; i += 2)
+        return FALSE; // 1 e os numeros pares não são primos, com exceção do 2
+    for (i = 2; i < (int)sqrt(numero) + 1; i++)
         if (numero % i == 0)
-            return False;
-    return True;
+            return FALSE;
+    return TRUE;
 }
 
 int main(){
     int num;
+    int tem_menor = FALSE;
     scanf("%d", &num);
-    if (num < 2)
-        printf("Nao possui numero primo menor!");
-    else if (num == 2)
-        printf("%d\n", num);
-    else
-        for (int i = num-1; i >= 0; i--)
-            if (eh_primo(i)){
-                printf("%d\n", i);
-                break;
-             }
 
-    return 0;
+    for (int value = num - 1; value > 1; value -= 1)
+        if eh_primo(value) == TRUE:
+            printf("%d", value);
+	    tem_menor = TRUE;
+            break;
+
+    if (tem_menor == FALSE)
+         printf("%d", 0);
 }
 ```
 
@@ -46,13 +43,14 @@ def eh_primo(numero):
     return True
 
 num = int (input ())
-if num < 2:
-    print "Nao possui numero primo menor!"
-elif num == 2:
-      print value
-else:
-      for value in range(num-1, 1, -1):
-          if eh_primo(value):
-              print value
-              break
+tem_menor = False
+
+for value in range(num - 1, 1, -1):
+    if eh_primo(value):
+        print value
+	tem_menor = True
+        break
+
+if tem_menor == False:
+    print 0
 ```

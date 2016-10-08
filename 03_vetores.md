@@ -37,7 +37,7 @@ depois é so fazer um loop somando a posicao vet[n-1] + vet[n-2] ate o enesimo t
 
 Curioso sobre a sequencia de fibbonaci? veja mais sobre https://en.wikipedia.org/wiki/Fibonacci_number
 
-**busca_linear:** A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como 
+**busca_linear:** A Busca Linear é um processo de busca de um elemento x em um vetor L que testa sequencialmente cada elemento de L e encerra quando x é encontrado (busca com sucesso) ou quando o final de L é extrapolado(busca sem sucesso). Dados como
 entrada um vetor de números L e um número x, determinar utilizando busca linear se x está ou não presente em L.
 [Respostas](03_vetores/busca_linear.md)
 <details><summary>_Clique para ver a Dica_</summary>
@@ -56,7 +56,7 @@ entrada um vetor de números L e um número x, determinar utilizando busca linea
 
 	>> 3
 	>> 1 2 5 6 8
-	>> falso 
+	>> falso
 
 **maior_menor:** Faça um programa que leia 15 números inteiros e os armazene em um vetor A. Determine então qual o maior e o menor destes números e quantas vezes este maior e este menor ocorrem no vetor. No final, apresente esses valores.
 [Respostas](03_vetores/maior_menor.md)
@@ -73,7 +73,7 @@ entrada um vetor de números L e um número x, determinar utilizando busca linea
 	>> 1 3 4 5 5 2
 	<< maior: 5
 	<< apareceu: 2x
-	<< menor 1: 
+	<< menor 1:
 	<< apareceu: 1x
 
 **vetor_reverso:** Faça um programa que receba um vetor A de 10 elementos e construa um vetor B que possui os mesmos números de A, sendo que na ordem invertida.
@@ -100,7 +100,7 @@ entrada um vetor de números L e um número x, determinar utilizando busca linea
 ```
 </details>
 
-	<< 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 
+	<< 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113
 
 **uniao_vetores:** Faça um programa que leia dois vetores A e B de 6 elementos. A só deverá aceitar valores pares enquanto que B só receberá valores ímpares. O programa deve alertar caso valores errados sejam passados e pedir pro usuário informar um valor correto. Apresentar um vetor C formado pela união dos elementos de A e B (C deverá ter 12 elementos).
 [Respostas](03_vetores/uniao_vetores.md)
@@ -116,22 +116,62 @@ entrada um vetor de números L e um número x, determinar utilizando busca linea
 
 ## MÉDIAS
 
-11. Faça um programa que preencha um vetor de dez números inteiros e um segundo vetor com cinco números inteiros, calcule e mostre dois vetores resultantes. O primeiro vetor resultante será composto pela soma dos números pares do primeiro vetor somado a cada elemento do segundo vetor. O segundo vetor resultante será composto pela soma de números impares do primeiro vetor somado com cada elemento do segundo vetor.
+**somatorio_vetor:** Crie uma função que receba um vetor de números inteiros como parametro e retorne o somatório dos elementos. O valor deve ser mostrado na main.
+[Respostas](03_vetores/somatorio_vetor.md)
+<details><summary>_Clique para ver a dica_</summary>
+```
+	SOMATORIO(vetor, tamanho)
+		para i <- 0 ate tamanho-1 faca
+			somatotal = somatotal + vetor[i]
 
-12. Dado um vetor de números inteiros, determinar,
-(a) A soma dos elementos.
-(b) A média dos elementos.
-(c) A soma dos elementos pares subtraída da soma dos elementos ímpares.
-(d) Os valores máximo e mínimo entre seus elementos.
-(e) Os dois elementos de maior valor presentes.
+		retorne somatotal
+```
+</details>
+
+	>> 5
+	>> 5 10 15 20 30
+	<< 80
+
+
+**media_vetor:** Crie uma função que receba um vetor de números inteiros como parametro e retorne a media dos elementos.
+O valor deve ser mostrado na main.
+[Respostas](03_vetores/media_vetor.md)
+<details><summary>_Clique para ver a dica_</summary>
+```
+	faca uso da funcao somatorio vista acima.
+	depois disto é só dividir o somatorio pelo numero de elementos
+```
+</details>
+
+	>> 4
+	>> 2.0 5.0 2.5 2.5
+	<< 3.0
+
+
+**pares_menos_impares** Crie uma funcao que recebar um vetor de inteiros como entrada e retorne a soma dos elementos pares subtraida da soma dos elementos impares.
+O valor deve ser mostrado na main.
+<details><summary>_Clique para ver a dica_</summary>
+```
+	SOMA_PARES(vetor, tamanho)
+		para i <- 0 ate tamanho-1 faca
+			se vetor[i] divido por 2 resta 0
+				somapares = somapares + vetor[i]
+			se nao
+				somaimpares = somaimpares + vetor[i]
+	retorne somapares - somaimpares
+
+```
+</details>
+
+	>> 5
+	>> 2 4 8 1 3
+	<< 10
+
 
 14. Rotacionar à direita um vetor significa colocar seus elementos uma posição adiante com exceção do último elemento que é transferido para a primeira posição. Rotacionar à esquerda um vetor significa colocar seus elementos uma posição para trás com exceção do primeiro elemento que é transferido para a última posição. Construir separadamente as rotações à direita e à esquerda para um vetor de inteiros dado como entrada.
 
 15. Faça um programa que preencha dois vetores, X e Y com dez números inteiros cada. Calcule e mostre os seguintes vetores resultantes:
 a) A união de X com Y(todos os elementos de X e de Y sem repetições);
-b) A diferença entre X e Y (todos os elementos de X que não existam em Y, sem repetições);
-c) A soma entre X e Y (soma de cada elemento de X com o elemento de mesma posição de em Y);
-d) O produto entre X e Y (Multiplicação de cada elemento de X com o elemento de mesma posição em Y);
 e) Interseção entre X e Y (Apenas os elementos que aparecem nos dois vetores, sem repetições);
 
 17. Escreva um programa para receber 10 números reais e armazená-los em um vetor. Depois disso,  mostre  o  somatório  dos  números,  através  do  uso  da  função  somatório,  que  não recebe  parâmetro  nenhum,  acessa  o  vetor  definido  globalmente  e  retorna  o  somatório dos elementos do vetor.
@@ -156,4 +196,3 @@ e) Interseção entre X e Y (Apenas os elementos que aparecem nos dois vetores, 
 30. Um número é dito pandigital se seus dígitos são todos distintos entre si. Construir função que determine se um número passado como argumento é ou não pandigital.
 
 35. Implemente a busca binária.
-
