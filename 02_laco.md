@@ -164,12 +164,11 @@ Cuidado com dividir por 0 no laço. Observe que para saber se é primo, você s�
     >> 2
     << sim
 
-
 **briga_de_primos:** Dado um inteiro N como entrada, determinar no conjunto {1 · · · N} a soma de todos os não-primos subtraída da soma dos primos.
 [Respostas](02_lacos/briga_de_primos.md)
 
-    >>  4
-    <<  0
+    >> 4
+    << 0
 
 **primo_maior:** Faça um programa que receba um número inteiro do usuário e exiba o maior número primo que seja menor do que o número digitado. Se não encontrar mostre 0.
 [Respostas](02_lacos/primo_maior.md)
@@ -195,7 +194,7 @@ senao
 **potencia:** Sejam a e b dois números naturais. Determinar o valor da potência a ^ b dados a e b como entrada.  
 [Respostas](02_lacos/potencia.md)
 
-    >>  2 3
+    >> 2 3
     << 8
 
 **fatorial:** Escreva um programa que leia um número N, inteiro maior que zero, e calcule o fatorial desse número.  
