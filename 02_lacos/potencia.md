@@ -2,23 +2,15 @@ _Exercicio extra: procure utilizar as funcoes da propria linguagem para realizar
 
 ### C
 ```c
-
-```
-
-### C++
-```c++
-
+potencia = num_a;
+for (int i = 0; i < num_b - 1 ; i++)
+    potencia *= num_a;
 ```
 
 ### Python
 ```python
-num_a = abs (int (input ()))
-num_b = abs (int (input ()))
-
 potencia = num_a
 for i in range(1, num_b):
   potencia *= num_a
-
-print potencia
 
 ```
