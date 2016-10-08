@@ -171,11 +171,7 @@ Cuidado com dividir por 0 no laço. Observe que para saber se é primo, você s�
     >>  4
     <<  0
 
-<<<<<<< HEAD
-**primo_maior:** Faça um programa que receba um número inteiro do usuário e exiba o maior número primo que seja menor do que o número digitado. Trate o caso especial, se for inserido 2 ele já sera o resultado.
-=======
 **primo_maior:** Faça um programa que receba um número inteiro do usuário e exiba o maior número primo que seja menor do que o número digitado. Se não encontrar mostre 0.
->>>>>>> 96cde0a2894a80c930cebc153d045a996a7127a5
 [Respostas](02_lacos/primo_maior.md)
 <details><summary>_Clique para ver Dica_</summary>
 ```
