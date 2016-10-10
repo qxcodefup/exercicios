@@ -1,4 +1,36 @@
+### C
+```c
+#include <math.h>
 
+int qtd_digitos(int numero){
+	int cont = 0;
+	while (numero != 0) {
+		numero /= 10;
+		cont ++;
+	}
+	return cont;
+}
+
+int RD(int numero){
+	int qtd = qtd_digitos(numero);
+	//Encontra o primeiro digito.
+	int primeiro = numero /  pow(10, (qtd - 1)); //Retiro os ultimos numeros menos o primeiro
+	int novo = numero % pow (10, (qtd - 1));  // Agora com o % pego os ultimos numeros menos o primeiro
+	novo *= 10; //redimensiona para caber mais um digito
+	novo += primeiro; //add o digito novo
+	return novo;
+}
+
+int RE(int numero){
+	int novo = numero % 10; //pega o ultimo numero
+	numero /= 10; # Retira o ultimo digito
+	espaco_para_novo_numero = pow(10, qtd_digitos(numero));
+	novo *= espaco_para_novo_numero; //redimensiona
+	novo += numero; //Add os numeros restantes
+	return novo;
+}
+
+```
 
 ### Python
 ```py

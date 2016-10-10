@@ -1,6 +1,16 @@
 ### C
 ```c
+int numero, digito;
+scanf("%d %d",  &numero, &digito);
 
+int contador = 0;
+while (numero != 0) {
+    int resto = numero % 10;
+    if (resto == digito)
+        contador ++;
+    numero /= 10
+}
+printf("%d\n", contador);
 ```
 ### Python
 ```py
