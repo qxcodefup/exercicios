@@ -33,7 +33,13 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 ---
 ## Nivel fácil
 
-* Dada uma string como entrada determinar a soma do código ascii de seus caracteres.
+**soma_ascii:** Dada uma string como entrada determinar a soma do código ascii de seus caracteres.[Respostas](04_strings/soma_ascii.md)
+<details><summary> _Clique para ver a Dica_ </summary>
+Para sabe o numero de um caractere m python use: ord(caractere)
+</details>
+
+        >> abc
+        << 294
 
 *  Escreva um programa que solicita dois números ponto flutuante do usuário e uma operação (caractere) que ele deseja realizar. O programa deve realizar a operação selecionada pelo usuário e apresentar na tela. Cuidado com divisões por zero.
 
