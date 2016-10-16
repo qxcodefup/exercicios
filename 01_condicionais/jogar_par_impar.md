@@ -1,6 +1,5 @@
 #C++
-
-```
+```c++
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
