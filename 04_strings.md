@@ -1,6 +1,5 @@
 ### ufc
 # Exercicios sobre Strings
-## Nivel fácil
 
 Nas atividades a seguir, podem utilizar de todo o seu conhecimento. Nosso objetivo é aprimorar nosso domínio de Strings. Nossas questões seguem um modelo que contém
 - nome,
@@ -32,6 +31,7 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 </details>
 
 ---
+## Nivel fácil
 
 * Dada uma string como entrada determinar a soma do código ascii de seus caracteres.
 
