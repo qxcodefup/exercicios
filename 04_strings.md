@@ -39,15 +39,15 @@ Quando tiver uma dica, que você **SÓ** deve **VER** se estiver com dificuldade
 
 * Faça um programa que receba palavras separadas por vários espaços em branco e apresente essas palavras separadas por somente um espaço.
 
-      >> LABORATORIO        DE          PROGRAMACAO
-      << LABORATORIO DE PROGRAMACAO
+        >> LABORATORIO        DE          PROGRAMACAO
+        << LABORATORIO DE PROGRAMACAO
 
 * Faça um programa que receba uma frase, calcule e mostre a quantidade de vogais da frase digitada. Também deve ser calculado e exibido a quantidade de palavras.
 
 * Faça um programa para criptografar uma frase, trocando as consoantes por # e invertendo a frase.
 
-      >> Sua casa
-      << a#a# au#
+        >> Sua casa
+        << a#a# au#
 
 * Faça um programa que receba um caractere e informe se ele é letra maiúscula, letra minúscula ou não é uma letra. Lembre-se que caracteres são representados internamente por números.
 
