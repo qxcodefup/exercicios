@@ -1,5 +1,5 @@
 ###C
-```
+```c
 
 #include <stdio.h>
 

@@ -1,5 +1,6 @@
 ### C++
 ```c++
+//Para fazer em C so mudar os 'cout' por printf("%d", valor);
     int n = 1;
     for (int i = 1; i < 64; i++){
         n *= 2;

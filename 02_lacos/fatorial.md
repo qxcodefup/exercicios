@@ -1,13 +1,11 @@
 _Exercicio extra: Tente fazer sem usar laços. Use recursão para fazer isso_
 
 ### C
-```c
-
-```
-
-### C++
-```c++
-
+```c    
+int numero; //Sera digitado pelo usuario
+int fatorial = 1;
+for (int value = numero; value > 0; value--)
+    fatorial *= value; //O mesmo que: fatorial = fatorial * value
 ```
 
 ### Python
@@ -17,7 +15,7 @@ while numero <= 0: # enquanto nao digitar um numero valido, no caso maior que ze
   numero = int (input ('Digite um numero maior que zero: '))
 
 fatorial = 1
-for valor in range(1, numero + 1):
+for valor in range(numero, 1, -1):
   fatorial *= valor
 print fatorial
 

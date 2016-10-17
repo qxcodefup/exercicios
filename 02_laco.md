@@ -164,15 +164,27 @@ Cuidado com dividir por 0 no laço. Observe que para saber se é primo, você s�
     >> 2
     << sim
 
-
 **briga_de_primos:** Dado um inteiro N como entrada, determinar no conjunto {1 · · · N} a soma de todos os não-primos subtraída da soma dos primos.
 [Respostas](02_lacos/briga_de_primos.md)
 
-    >>  4
-    <<  0
+    >> 4
+    << 0
 
 **primo_maior:** Faça um programa que receba um número inteiro do usuário e exiba o maior número primo que seja menor do que o número digitado. Se não encontrar mostre 0.
 [Respostas](02_lacos/primo_maior.md)
+<details><summary>_Clique para ver Dica_</summary>
+```
+leia um numero
+se o numero for menor que dois
+    mostre que nao tem numero primo menor
+se for 2
+    mostre ele
+senao
+    percorra do numero - 1 ate que seja menor ou igual 2
+        se um numero for primo
+            motre e pare o laco
+```
+</details>
 
     >> 10
     << 7
@@ -182,7 +194,7 @@ Cuidado com dividir por 0 no laço. Observe que para saber se é primo, você s�
 **potencia:** Sejam a e b dois números naturais. Determinar o valor da potência a ^ b dados a e b como entrada.  
 [Respostas](02_lacos/potencia.md)
 
-    >>  2 3
+    >> 2 3
     << 8
 
 **fatorial:** Escreva um programa que leia um número N, inteiro maior que zero, e calcule o fatorial desse número.  
@@ -198,14 +210,26 @@ até n, contados de 2 em 2. Dado um numero natural n calcule seu fatorial duplo.
     >> 3
     << 3
 
-**conversor:** Faça um conversor da base decimal para qualquer base entre 2 e 8. Mostre o resultado.
-[Respostas](02_lacos/conversor.md)
+**conversor2_10:** Faça um conversor da base binaria para qualquer base decimal. Mostre o resultado.
+[Respostas](02_lacos/conversor2_10.md)
+<details><summary>_Clique para ver Dica_</summary>
+Dado 10010 a saída será 18, pois 1 * 2⁴ + 0 * 2³ + 0 * 2² + 1 * 2¹ + 0 * 2⁰ = 18.
+ </details>
+
+     >> 111
+     << 7
 
 **quadrado_perfeito:** Um quadrado perfeito é um número natural cuja raiz quadrada também pertence aos naturais. O conjunto dos quadrados perfeitos é {1, 4, 9, 16, 25, 36, 49, · · · }. Dado um inteiro de entrada determinar apenas com multiplicação e laço se este número é um quadrado perfeito.
 [Respostas](02_lacos/quadrado_perfeito.md)
 
+    >> 4
+    << sim
+
 **mdc:** O máximo divisor comum, ou mdc, de dois números naturais a e b é o maior número inteiro não nulo menor que a e b e pelo qual ambos podem ser divididos (resto igual a zero). Calcule o mdc.
 [Respostas](02_lacos/mdc.md)
+
+    >> 4 6
+    << 2
 
 ## Operações de módulo e divisão com inteiros
 

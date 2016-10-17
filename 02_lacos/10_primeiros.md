@@ -1,5 +1,5 @@
 ### C
-```
+```c
 int contador  = 1, numero = 0, soma = 0;
 while (contador <= 10){
       if (numero % 7 == 0 && numero % 3 != 0){
