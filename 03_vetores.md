@@ -148,8 +148,9 @@ O valor deve ser mostrado na main.
 	<< 3.0
 
 
-**pares_menos_impares** Crie uma funcao que recebar um vetor de inteiros como entrada e retorne a soma dos elementos pares subtraida da soma dos elementos impares.
+**pares_menos_impares:** Crie uma funcao que recebar um vetor de inteiros como entrada e retorne a soma dos elementos pares subtraida da soma dos elementos impares.
 O valor deve ser mostrado na main.
+[Respostas](03_vetores/pares_menos_impares.md)
 <details><summary>_Clique para ver a dica_</summary>
 ```
 	SOMA_PARES(vetor, tamanho)
@@ -167,18 +168,91 @@ O valor deve ser mostrado na main.
 	>> 2 4 8 1 3
 	<< 10
 
+**rotacao_direita:** Crie a funcao que rotacione um vetor a direita, isso significa colocar seus elementos uma posição adiante com exceção do último elemento que é transferido para a primeira posição.
+Depois de usar a função mostre o vetor na main.
+[Respostas](03_vetores/rotacao_direita.md)
 
-14. Rotacionar à direita um vetor significa colocar seus elementos uma posição adiante com exceção do último elemento que é transferido para a primeira posição. Rotacionar à esquerda um vetor significa colocar seus elementos uma posição para trás com exceção do primeiro elemento que é transferido para a última posição. Construir separadamente as rotações à direita e à esquerda para um vetor de inteiros dado como entrada.
+**uniao_vetores:** Faça um programa que preencha dois vetores A e B com 5 numeros inteiros cada e faça a união de A e B em um vetor C, tal que C não contem elementos repetidos.
+[Respostas](03_vetores/uniao_semrep.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	percorra o vetor A, e para cada elemento de A chame a funcao auxiliar busca linear passando como o parametro o vetor C, se a busca retornar sucesso é porque o elemento é repetido, caso contrario basta inserir o valor no final de C (para isso use um marcador que guardara o indice da ultima posicao)
+	faca o mesmo procedimento para o vetor B.
+```
+</details>
 
-15. Faça um programa que preencha dois vetores, X e Y com dez números inteiros cada. Calcule e mostre os seguintes vetores resultantes:
-a) A união de X com Y(todos os elementos de X e de Y sem repetições);
-e) Interseção entre X e Y (Apenas os elementos que aparecem nos dois vetores, sem repetições);
+	>> 1 2 3 4 5
+	>> 1 2 3 6 2
+	<< 1 2 3 4 5 6
 
-17. Escreva um programa para receber 10 números reais e armazená-los em um vetor. Depois disso,  mostre  o  somatório  dos  números,  através  do  uso  da  função  somatório,  que  não recebe  parâmetro  nenhum,  acessa  o  vetor  definido  globalmente  e  retorna  o  somatório dos elementos do vetor.
+	>> 1 2 3 4 4
+	>> 1 1 1 2 3
+	<< 1 2 3 4
 
-18. Faça uma  função  que  receba  como  parâmetro  um  vetor  A  de  dez  elementos  inteiros  já populado  como  parâmetro.  Ao final  dessa  função,  deverá  ter  sido  gerado  um  vetor  B contendo o fatorial de cada elementos de A. O vetor B deverá ser mostrado no main.
+**intersecao_vetores:** Faça um programa que preencha dois vetores A e B com 5 numeros inteiros cada e faça a interseção de A e B em um vetor C, note que não pode haver elementos repetidos no vetor C.
+[Respostas](03_vetores/intersecao_semrep.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	use uma variavel auxiliar para guardar onde deve se adicionar o proximo elemento no vetor C.
+	use a busca_linear para facilitar.
 
-20. Faça um programa que receba dois vetores de inteiros ordenados e imprima os valores dos vetores de maneira que eles continuem ordenados.
+	primeiro faca
+		para i <- 0 ate 5 faca
+			se busca_linear(B, A[i]) && !busca_linear(C, A[i]) = verdade faca
+				C[marcador] = A[i]
+				marcador++
+
+	depois basta fazer o mesmo para o vetor B
+		para i <- 0 ate 5 faca
+			se busca_linear(A, B[i]) && !busca_linear(C, B[i]) = verdade faca
+				C[marcador] = B[i]
+				marcador++
+```
+</details>
+
+	>> 1 2 3 4 5
+	>> 5 4 3 9 9
+	<< 3 4 5
+
+**vetores_ordenados:** Faca um programa que receba dois vetores ordenados e faca um merge dos dois em um novo vetor C de forma que o vetor C continue ordenado.
+[Respostas](03_vetores/vetores_ordenados.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+	use um marcador para o vetor A, outro para o vetor B.
+	enquanto o vetor C nao for preenchido faca
+		se marcador A = tamanho A (isto indica que o vetor A ja foi totalmente checado)
+			coloque o restante do vetor B no vetor C.
+		se marcador B = tamanho B
+			coloque o restante do vetor A no vetor C.
+		se nao faca
+			se A[marcadorA] < B[marcadorB]
+				C[i] = A[marcadorA]
+				marcadorA++
+				i++;
+			se nao se A[marcadorA] > B[marcadorB]
+				C[i] = B[marcadorB]
+				marcadorB++
+				i++;
+			se nao (caso sejam iguais)
+				C[i] = A[marcadorA]
+				i++
+				marcadorA++
+				C[i] = B[marcadorB]
+				i++
+				marcadorB++
+
+```
+
+</details>
+
+	>> 1 2 3 4 5
+	>> 3 4 9 12 13
+	<< 1 2 3 3 4 4 5 9 12 13
+
+	>> 1 1 1 1 6
+	>> 4 5 6 7 8
+	<< 1 1 1 1 4 5 6 6 7 8
+
 
 22. Implemente o selection sort.
 
