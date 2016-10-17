@@ -1,5 +1,5 @@
 ###C
-```
+```c
 #include <stdio.h>
 
 int main(){
@@ -21,7 +21,7 @@ int main(){
 
 	for (i = 0; i < 10; i++){
 		printf("%d " ,vetorB[i]);
-	}	
+	}
 
 	printf("\n");
 
@@ -30,38 +30,54 @@ int main(){
 ```
 
 ###C++
-```
-
+```cpp
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-int main(){
-	vector<int> vetorA;
-	vector<int> vetorB;
-	int i;
-	int value;
-
-	cout << "Entre com os 10 elementos do vetor A: " << endl;
-
-	for (i = 0; i < 10; i++){
-		cin >> value;
-		vetorA.push_back(value);
-	}
-
-	for (i = 9; i >= 0; i--){
-		vetorB.push_back(vetorA[i]);
-	}
-
-	cout << "O vetor B eh: " << endl;
-
-	for (i = 0; i < 10; i++){
-		cout << vetorB[i] << " ";
-	}	
-
-	cout << endl;
-
-	return 0;
+void ler(int vet[], int tam){
+    for (int i = 0; i < tam; ++i)
+        cin >> vet[i];
 }
+
+void mostrar(int vet[], int tam){
+    for (int i = 0; i < tam; ++i)
+        cout << vet[i] << endl;
+}
+
+void sswap(int &value, int &value2){
+    int aux = value;
+    value = value2;
+    value2 = aux;
+}
+
+int main()
+{
+    int tam;
+    cin >> tam;
+
+    int vet[];
+    ler(vet, tam);
+
+    for (int i = 0; i < tam/2; ++i)
+        sswap(vet[i], vet[(tam - 1) - i]);
+
+    mostrar(vet, tam);
+
+    return 0;
+}
+```
+
+### Python
+```py
+tam = int (input ())
+numeros = []
+for i in range(tam):
+	num = int (input ())
+	numeros.append(num)
+
+numeros = numeros[::-1]
+
+for value in numeros:
+	print value,
 ```
