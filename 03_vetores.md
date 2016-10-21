@@ -254,9 +254,38 @@ Depois de usar a função mostre o vetor na main.
 	<< 1 1 1 1 4 5 6 6 7 8
 
 
-22. Implemente o selection sort.
+**selection_sort:** Implemente o algoritmo selection sort.
+[Respostas](03_vetores/selection_sort.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+para i <- 0 ate n faca
+	para j <- i+1 ate n faca
+	 se vetor[i] > vetor[j]
+	 	troque vetor[i] <-> vetor[j]
+```
 
-23. A mediana de um conjunto finito de números é um elemento deste conjunto cuja quantidade de elementos menores ou iguais a ele é no máximo uma unidade a menos que os elementos maiores que ele. Dado um conjunto de entrada Q em forma de vetor, determinar sua mediana.
+</details>
+
+	>> 1 3 5 2 6 4
+	<< 1 2 3 4 5 6
+
+**mediana_vetor:** Dado um vetor de tamanho n determinar a mediana deste vetor, lembre-se que a mediana é o elemento que separa a metade superior e a metade inferior, note que o vetor deve estar ordenado para isto.
+[Respostas](03_vetores/mediana_vetor.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+comece ordenando o vetor
+voce pode usar a funcao selection_sort vista anteriormente
+depois de ordenar basta olhar se o numero de elementos for impar pegue o elemento na posicao |_n/2_| + 1
+caso seja par pegue os elementos na posicao n/2 e n/2 + 1 e faca a media destes elementos
+
+```
+</details>
+
+	>> 1 4 2 3 5
+	<< 3.0
+
+	>> 1 2 9 3 5 4
+	<< 3.5
 
 24. Dado um vetor de números naturais, reorganizar seus elementos de forma que dois números pares não fiquem vizinhos. Informar quando não for possível.
 
@@ -269,4 +298,26 @@ Depois de usar a função mostre o vetor na main.
 
 30. Um número é dito pandigital se seus dígitos são todos distintos entre si. Construir função que determine se um número passado como argumento é ou não pandigital.
 
-35. Implemente a busca binária.
+**busca_binaria:** Implemente a busca binária, note que você pode optar por retornar o indice ou um booleano.
+[Respostas](03_vetores/busca_binaria.md)
+<details><summary>_Clique para ver a Dica_</summary>
+```
+busca_binaria(A, n, elem)
+	p <- 0
+	r <- n + 1
+	enquanto p <- r-1 faca
+		q <- |_(p+r)/2_|
+		se A[q] < x
+			entao p <- q
+			senao r <- q
+	retorne r
+```
+</details>
+
+	>> 1 2 3 4 10
+	>> 3
+	<< verdadeiro
+
+	>> 1 2 3 4 10
+	>> 7
+	<< falso
