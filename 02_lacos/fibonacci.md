@@ -1,6 +1,7 @@
 ## Python
 
 ```python
+# 1 solucao, para abrir a mente, complexidade O(n²)
 def fibonacci_recursivo(n):
 	if n < 0:
 		return 0
@@ -8,6 +9,7 @@ def fibonacci_recursivo(n):
 		return n
 	return fibonacci_recursivo(n - 1) + fibonacci_recursivo(n - 2)
 
+# 2 solucao, mais eficiente que recursao, complexidade O(n)
 def fibonacci_iterativo(n):
 	i = 1
 	j = 0
@@ -17,6 +19,7 @@ def fibonacci_iterativo(n):
 		j = t
 	return j
 
+# 3 solucao, mais rapida que as anteriores, complexidade O(log n)
 def fibonacci_dividido(n):
 	if n <= 0:
 		return 0
