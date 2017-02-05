@@ -231,6 +231,13 @@ Dado 10010 a saída será 18, pois 1 * 2⁴ + 0 * 2³ + 0 * 2² + 1 * 2¹ + 0 * 
     >> 4 6
     << 2
 
+**fibonacci:** Fibonacci é uma sequência de números inteiros começando por 0 e 1, onde cada os próximos corresponde a soma dos anteriores.
+A sequencia é essa: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ... e a formular básica é essa: F(n) = F(n-1) + F(n-2). Entradas com valores menores que 2 se tornam o próprio resultado.
+[Respostas](02_lacos/fibonacci.md)
+
+    >> 6
+    << 8
+
 ## Operações de módulo e divisão com inteiros
 
 **pega_casa:** Dado um número e uma casa, retorne a casa decimal desse número. Casa 0 é unidade,
